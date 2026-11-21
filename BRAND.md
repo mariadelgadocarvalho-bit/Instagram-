@@ -36,7 +36,7 @@
 | Logótipo | Cronómetro com o arco dos primeiros 20 minutos a tomate + o nome da página em minúsculas (wordmark) |
 | Tagline | RÁPIDO · PRÁTICO · DO DIA A DIA |
 | Repositório / ramo | `mariadelgadocarvalho-bit/Instagram-` / `claude/blissful-keller-0no35s` |
-| Hora da tarefa diária | **Tarefa automática às 17:52 (Lisboa)**: ideia, fotos reais, carrossel, legenda, Story e preview prontos antes das 18:30. **Publicação às 18:30**, sempre depois da aprovação da dona da página. Sem aprovação, nada é publicado. |
+| Hora da tarefa diária | **Tarefa automática às 8:47 (Lisboa)**: ideia, fotos reais, carrossel, legenda, Story e preview prontos para aprovação até às 10:15. **Publicação às 10:30**, a hora de maior envolvimento segundo o Metricool (pico das 10h às 11h todos os dias), e dá o dia inteiro para comprar os ingredientes. Sempre depois da aprovação da dona da página; sem aprovação, nada é publicado. |
 
 ---
 

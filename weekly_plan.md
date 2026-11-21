@@ -1,6 +1,6 @@
 # Plano · 22 a 28 de novembro de 2026
 
-Publicação às 18:30 (Lisboa), a confirmar com o Metricool (`getBestTimeToPostByNetwork`) quando o conector estiver ligado.
+Publicação às **10:30** (Lisboa): é a hora de maior envolvimento segundo o Metricool e dá tempo para comprar os ingredientes. Tarefa às 8:47, aprovação até às 10:15.
 
 Regra n.º 1: cada dia só avança com fotografias reais dos alimentos, dos ingredientes, do prato final e dos acessórios.
 Contexto: fim de novembro, frio, semana antes do 1.º domingo do Advento (29/11). Tendências de época **gerais, não específicas de Portugal**: sopas e cremes, air fryer, pratos de uma só panela, marmitas.
