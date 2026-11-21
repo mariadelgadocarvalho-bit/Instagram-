@@ -7,7 +7,7 @@ Contexto: fim de novembro, frio, semana antes do 1.º domingo do Advento (29/11)
 
 | Dia | Pilar | Tema | Estado |
 |---|---|---|---|
-| Dom 22 | 1 · Uma frigideira | Ovos escalfados em tomate (20 min) | preview pronto, à espera de aprovação |
+| Sáb 21 (teste) · Dom 22 | 1 · Uma frigideira | Ovos escalfados em tomate (20 min) | publicado em teste a 21/11 às 21:20 |
 | Seg 23 | 4 · Sopa rápida | Creme de abóbora e cenoura em 20 min | proposta |
 | Ter 24 | 3 · Marmita | Arroz de frango desfiado com ervilhas para levar | proposta |
 | Qua 25 | 2 · Air fryer | Salmão com batata-doce aos cubos | proposta |

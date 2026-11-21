@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "pasta": "daily/2026-11-22-ovos-escalfados-tomate",
+    "data": "2026-11-21",
+    "hora": "21:20",
+    "fuso": "Europe/Lisbon",
+    "tipo": "carrossel",
+    "pilar": "1 · Uma frigideira",
+    "titulo": "Ovos escalfados em tomate",
+    "estado": "agendado (teste)",
+    "metricool_id": 437030873,
+    "uuid": "8773074928053340249",
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=8773074928053340249"
+  },
+  {
+    "pasta": "daily/2026-11-22-ovos-escalfados-tomate",
+    "data": "2026-11-21",
+    "hora": "21:25",
+    "fuso": "Europe/Lisbon",
+    "tipo": "story",
+    "pilar": "1 · Uma frigideira",
+    "titulo": "Story: novo post ovos escalfados",
+    "estado": "agendado (teste)",
+    "metricool_id": 437031314,
+    "uuid": "5045113294902413835",
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=5045113294902413835"
+  }
+]
