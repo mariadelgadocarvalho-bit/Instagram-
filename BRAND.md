@@ -31,7 +31,7 @@
 | Tom | Próximo, direto, com humor leve; passos curtos com o tempo de cada passo; sem pretensão |
 | Palavras proibidas | gourmet, superalimento, detox, "sem culpa", "queima gordura", "emagrece", "cura", e qualquer alegação de saúde ou nutrição não autorizada (Reg. (CE) 1924/2006) |
 | Aviso | "Tempos aproximados · Confirma alergénios (contém X)" |
-| Cores | fundo `#FFF8EE` (creme) · texto `#2B2118` · tomate `#E4572E` · manjericão `#3A7D44` · mostarda `#F2B134` · neutro `#9A8F84` · cartões `#FFFFFF` |
+| Cores | fundo **`#FFFFFF` (branco)**, desde 21/11/2026 · texto `#2B2118` · tomate `#E4572E` · manjericão `#3A7D44` · mostarda `#F2B134` · neutro `#9A8F84` · cartões `#FFF8EE` (creme, com contorno `#F1E6D6`) |
 | Letras | títulos **Bricolage Grotesque 700–800** · texto **Inter** (ambas OFL, do Google Fonts) |
 | Logótipo | Cronómetro com o arco dos primeiros 20 minutos a tomate + o nome da página em minúsculas (wordmark) |
 | Tagline | RÁPIDO · PRÁTICO · DO DIA A DIA |
@@ -108,7 +108,9 @@ Se falhar qualquer uma destas, não a uses e diz-me porquê.
 
 ---
 
-## 6. O carrossel (7 slides, 1080×1350, fundo sempre claro)
+## 6. O carrossel (7 slides, 1080×1350, fundo branco)
+
+Modelo atual: `tools/build_template.py`. Copia-o para `daily/<post>/build.py`.
 
 | Slide | Conteúdo | Frase-isco em baixo à direita |
 |---|---|---|
