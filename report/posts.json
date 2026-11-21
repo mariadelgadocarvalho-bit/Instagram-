@@ -7,10 +7,11 @@
     "tipo": "carrossel",
     "pilar": "1 · Uma frigideira",
     "titulo": "Ovos escalfados em tomate",
-    "estado": "agendado (teste)",
+    "estado": "publicado (teste)",
     "metricool_id": 437030873,
     "uuid": "8773074928053340249",
-    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=8773074928053340249"
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=8773074928053340249",
+    "instagram": "https://www.instagram.com/p/DgBLx9OitjP/"
   },
   {
     "pasta": "daily/2026-11-22-ovos-escalfados-tomate",
@@ -20,9 +21,10 @@
     "tipo": "story",
     "pilar": "1 · Uma frigideira",
     "titulo": "Story: novo post ovos escalfados",
-    "estado": "agendado (teste)",
+    "estado": "publicado (teste)",
     "metricool_id": 437031314,
     "uuid": "5045113294902413835",
-    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=5045113294902413835"
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=5045113294902413835",
+    "instagram": "https://www.instagram.com/stories/tocaajantar/4035560476015885609"
   }
 ]
