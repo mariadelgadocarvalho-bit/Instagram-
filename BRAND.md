@@ -21,7 +21,7 @@
 | Nome da página | **Toca a Jantar** (wordmark: "toca a jantar") |
 | Instagram | @tocaajantar (alternativa: @toca.a.jantar). Confirmar no Instagram se está livre |
 | Biografia | Jantares em 20 min com ingredientes do supermercado e pouca loiça 🍳 Uma receita nova por dia. Guarda e segue para nunca mais ficares sem ideias. (144 caracteres) |
-| Metricool blogId / fuso | `{{por ligar}}` / Europe/Lisbon |
+| Metricool blogId / fuso | `8274260` (conta Instagram @tocaajantar) / Europe/Lisbon |
 | Missão | Receitas rápidas, práticas e básicas para o dia a dia: no máximo 20–25 min, ingredientes de supermercado, pouca loiça |
 | Público | Portugueses dos 25 aos 45 anos que trabalham, cozinham para 1–4 pessoas e chegam a casa sem tempo nem ideias |
 | Língua do conteúdo | Português de Portugal, a tratar por "tu". Medidas em g, ml, c. sopa, c. chá; temperaturas em °C |
