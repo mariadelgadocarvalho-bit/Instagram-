@@ -5,7 +5,8 @@ HERE = Path(__file__).parent
 FONTS = "../../assets/fonts"
 NOME = "toca a jantar"   # wordmark do cabeçalho
 HANDLE = "@tocaajantar"
-# Fotografias reais (prioridade). Se o ficheiro não existir, usa a ilustração PAN.
+# REGRA N.º 1: só fotografias reais (alimentos, ingredientes, prato final e acessórios).
+# Se faltar uma foto, aparece um aviso FALTA FOTO REAL e o export final recusa-se a correr.
 FOTO_CAPA = HERE / "fotos" / "capa.jpg"            # prato acabado, visto de cima
 FOTO_INGREDIENTES = HERE / "fotos" / "ingredientes.jpg"  # flat-lay dos ingredientes
 
@@ -14,28 +15,11 @@ LOGO = """<svg viewBox="0 0 40 40" class="logo"><circle cx="20" cy="22" r="15" f
 <rect x="16" y="1.5" width="8" height="4" rx="1.5" fill="#2B2118"/><line x1="20" y1="22" x2="20" y2="13" stroke="#2B2118" stroke-width="3" stroke-linecap="round"/>
 <circle cx="20" cy="22" r="2.4" fill="#2B2118"/></svg>"""
 
-PAN = """<svg viewBox="0 0 300 220" class="pan">
-<rect x="208" y="98" width="96" height="22" rx="11" fill="#2B2118" transform="rotate(-18 208 109)"/>
-<circle cx="125" cy="112" r="102" fill="#2B2118"/><circle cx="125" cy="112" r="90" fill="#F6E3C6"/>
-<g fill="#3A7D44">
-<path d="M70 70 q22 -26 40 4 q-20 14 -40 -4z"/><path d="M150 60 q30 -12 34 20 q-24 6 -34 -20z"/>
-<path d="M60 140 q10 -30 38 -12 q-14 22 -38 12z"/><path d="M160 150 q26 -22 40 8 q-24 14 -40 -8z"/>
-<path d="M112 168 q18 -20 34 4 q-18 12 -34 -4z"/></g>
-<g fill="#E9A23B" stroke="#C9781E" stroke-width="2">
-<rect x="95" y="88" width="30" height="24" rx="7" transform="rotate(-12 110 100)"/>
-<rect x="138" y="102" width="30" height="24" rx="7" transform="rotate(14 153 114)"/>
-<rect x="88" y="124" width="28" height="22" rx="7" transform="rotate(8 102 135)"/>
-<rect x="128" y="72" width="26" height="22" rx="7" transform="rotate(-24 141 83)"/>
-<rect x="170" y="80" width="26" height="22" rx="7" transform="rotate(20 183 91)"/></g>
-<g fill="#F2C879" stroke="#D9A44E" stroke-width="1.5">
-<circle cx="80" cy="105" r="8"/><circle cx="126" cy="138" r="8"/><circle cx="182" cy="128" r="8"/><circle cx="150" cy="88" r="7.5"/>
-<circle cx="66" cy="120" r="7.5"/><circle cx="196" cy="108" r="7.5"/><circle cx="110" cy="70" r="7.5"/><circle cx="140" cy="160" r="7.5"/>
-<circle cx="170" cy="168" r="7"/><circle cx="92" cy="155" r="7"/></g>
-<g fill="#FFF8EE" opacity=".9"><ellipse cx="75" cy="88" rx="7" ry="4"/><ellipse cx="170" cy="140" rx="6" ry="3.5"/></g>
-<g fill="#F2E86D"><path d="M190 152 a14 14 0 0 1 22 -10 l-11 12z"/></g>
-</svg>"""
 
 DOWN = """<svg viewBox="0 0 24 24" class="down"><path d="M12 4v14M6 12l6 6 6-6" fill="none" stroke="#E4572E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg>"""
+
+def MISSING(ficheiro, mostra, cls):
+    return f'<div class="missing-photo {cls}"><b>FALTA FOTO REAL</b><span>fotos/{ficheiro}: {mostra}</span></div>'
 
 PIN = """<svg viewBox="0 0 24 24" class="pin"><path d="M15 3l6 6-3 1-4 4 .5 4.5L13 20l-4-4-5 5-1-1 5-5-4-4 1.5-1.5L10 10l4-4z" fill="#E4572E"/></svg>"""
 
@@ -54,7 +38,7 @@ slides = []
 slides.append(frame(1, f"""
   <div class="kicker">JANTAR NUMA FRIGIDEIRA</div>
   <h1>Frango com grão e espinafres</h1>
-  {('<img class="hero" src="fotos/capa.jpg" alt="">' if FOTO_CAPA.exists() else PAN)}
+  {('<img class="hero" src="fotos/capa.jpg" alt="">' if FOTO_CAPA.exists() else MISSING('capa.jpg', 'prato pronto visto de cima', 'hero'))}
   <div class="chips"><span class="chip red">20 min</span><span class="chip">1 frigideira</span><span class="chip">2 pessoas</span></div>
 """, "desliza →", "s1"))
 
@@ -72,8 +56,8 @@ rows = "".join(f'<li><span>{a}</span><i></i><b>{b}</b></li>' for a, b in ING)
 slides.append(frame(3, f"""
   <div class="kicker">INGREDIENTES · 2 PESSOAS</div>
   <h2>Cabe tudo num saco de supermercado</h2>
-  {('<img class="flat" src="fotos/ingredientes.jpg" alt="">' if FOTO_INGREDIENTES.exists() else '')}
-  <ul class="ing{' compact' if FOTO_INGREDIENTES.exists() else ''}">{rows}</ul>
+  {('<img class="flat" src="fotos/ingredientes.jpg" alt="">' if FOTO_INGREDIENTES.exists() else MISSING('ingredientes.jpg', 'ingredientes juntos', 'flat'))}
+  <ul class="ing compact">{rows}</ul>
 """, "Agora, o relógio →"))
 
 slides.append(frame(4, f"""
@@ -140,7 +124,6 @@ footer{{display:flex;justify-content:space-between;align-items:center;font-size:
 h1{{font-family:'Bricolage';font-weight:800;font-size:43px;line-height:.98;letter-spacing:-1.4px;margin-top:8px}}
 h2{{font-family:'Bricolage';font-weight:800;font-size:29px;line-height:1.05;letter-spacing:-.8px;margin:6px 0 14px}}
 h2.big{{font-size:40px;letter-spacing:-1.3px;margin-top:22px}}
-.pan{{width:330px;margin:14px auto 6px;display:block}}
 .hero{{width:100%;height:250px;object-fit:cover;border-radius:16px;margin:12px 0 10px;display:block}}
 .flat{{width:100%;height:104px;object-fit:cover;border-radius:12px;margin:-4px 0 8px;display:block}}
 .ing.compact li{{padding:3.5px 0;font-size:13.5px}}
@@ -188,6 +171,11 @@ h2.big{{font-size:40px;letter-spacing:-1.3px;margin-top:22px}}
 #s7 .cta{{font-size:22px;margin-top:24px}}
 #s7 .follow{{font-size:15.5px;margin-top:22px}}
 #s7 .saveline{{font-size:14.5px}}
+.missing-photo{{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;text-align:center;border:2.5px dashed var(--red);background:#FCE6DE;color:var(--red);border-radius:16px}}
+.missing-photo b{{font-family:'Bricolage';font-size:20px;letter-spacing:.5px}}
+.missing-photo span{{font-size:12px;color:var(--ink)}}
+.missing-photo.hero{{height:250px;margin:12px 0 10px}}
+.missing-photo.flat{{height:104px;margin:-4px 0 8px;border-radius:12px}}
 .legal{{margin-top:auto;margin-bottom:10px;font-size:10px;color:var(--muted);text-align:center}}
 """
 

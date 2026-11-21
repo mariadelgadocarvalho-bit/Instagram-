@@ -10,6 +10,13 @@ const path = require('path');
   await page.goto('file://' + path.join(dir, 'carousel.html'));
   await page.evaluate(() => document.fonts.ready);
   if (mode === 'final') {
+    // REGRA N.º 1: só fotografias reais. Sem elas, não há exportação final.
+    const missing = await page.$$eval('.missing-photo span', els => els.map(e => e.textContent));
+    if (missing.length) {
+      console.error('BLOQUEADO (Regra n.º 1): faltam fotos reais:\n - ' + missing.join('\n - '));
+      await browser.close();
+      process.exit(1);
+    }
     const slides = await page.$$('.slide');
     for (let i = 0; i < slides.length; i++) {
       await slides[i].screenshot({ path: path.join(dir, `slide_${i + 1}.jpg`), type: 'jpeg', quality: 92 });
