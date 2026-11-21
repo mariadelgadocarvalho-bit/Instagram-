@@ -8,8 +8,9 @@
 
 | Campo | Valor |
 |---|---|
-| Nome da página | `{{A CRIAR, ver secção 1}}` |
-| Instagram | `{{@handle a criar}}` |
+| Nome da página | **Toca a Jantar** (wordmark: "toca a jantar") |
+| Instagram | @tocaajantar (alternativa: @toca.a.jantar). Confirmar no Instagram se está livre |
+| Biografia | Jantares em 20 min com ingredientes do supermercado e pouca loiça 🍳 Uma receita nova por dia. Guarda e segue para nunca mais ficares sem ideias. (144 caracteres) |
 | Metricool blogId / fuso | `{{por ligar}}` / Europe/Lisbon |
 | Missão | Receitas rápidas, práticas e básicas para o dia a dia: no máximo 20–25 min, ingredientes de supermercado, pouca loiça |
 | Público | Portugueses dos 25 aos 45 anos que trabalham, cozinham para 1–4 pessoas e chegam a casa sem tempo nem ideias |
@@ -24,7 +25,7 @@
 | Letras | títulos **Bricolage Grotesque 700–800** · texto **Inter** (ambas OFL, do Google Fonts) |
 | Logótipo | Cronómetro com o arco dos primeiros 20 minutos a tomate + o nome da página em minúsculas (wordmark) |
 | Tagline | RÁPIDO · PRÁTICO · DO DIA A DIA |
-| Repositório / ramo | `{{owner/repo}}` / `{{ramo}}` |
+| Repositório / ramo | `mariadelgadocarvalho-bit/Instagram-` / `claude/blissful-keller-0no35s` |
 | Hora da tarefa diária | 10:00 Lisboa. Publicação por omissão às 18:30 (hora de decidir o jantar), a confirmar com `getBestTimeToPostByNetwork` |
 
 ---
@@ -138,7 +139,7 @@ Não uses o logótipo nem a marca do Instagram; é só uma simulação.
 
 ## 8. Publicação (Metricool)
 
-1. Commit e push. Usa URLs **fixos ao commit**: `https://raw.githubusercontent.com/{{owner/repo}}/<sha>/<caminho>`; os URLs do ramo ficam em cache. Confirma com curl: resposta 200 e tamanho igual ao do ficheiro local.
+1. Commit e push. Usa URLs **fixos ao commit**: `https://raw.githubusercontent.com/mariadelgadocarvalho-bit/Instagram-/<sha>/<caminho>`; os URLs do ramo ficam em cache. Confirma com curl: resposta 200 e tamanho igual ao do ficheiro local.
 2. Chama `createScheduledPost` com o `blogId` da página e `publicationDate {dateTime, timezone:"Europe/Lisbon"}`, provider instagram:
    - **Carrossel:** `type:"POST"`, media = os 7 slides por ordem, `firstCommentText` com a pergunta, `autoPublish:true`.
    - **Story:** `type:"STORY"`, sem texto, 5 min depois.
