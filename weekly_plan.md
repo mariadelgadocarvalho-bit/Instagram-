@@ -7,7 +7,7 @@ Contexto: fim de novembro, frio, semana antes do 1.º domingo do Advento (29/11)
 
 | Dia | Pilar | Tema | Estado |
 |---|---|---|---|
-| Dom 22 | 1 · Uma frigideira | Frango com grão e espinafres (20 min) | parado: faltam fotos reais (Regra n.º 1) |
+| Dom 22 | 1 · Uma frigideira | Ovos escalfados em tomate (20 min) | preview pronto, à espera de aprovação |
 | Seg 23 | 4 · Sopa rápida | Creme de abóbora e cenoura em 20 min | proposta |
 | Ter 24 | 3 · Marmita | Arroz de frango desfiado com ervilhas para levar | proposta |
 | Qua 25 | 2 · Air fryer | Salmão com batata-doce aos cubos | proposta |
@@ -15,4 +15,4 @@ Contexto: fim de novembro, frio, semana antes do 1.º domingo do Advento (29/11)
 | Sex 27 | 7 · Doce rápido | Maçã caramelizada na frigideira com canela e iogurte | proposta |
 | Sáb 28 | 6 · Básicos e truques | Arroz branco solto à primeira | proposta |
 
-O voto A/B de dia 22 (air fryer ou marmita) decide uma variação do frango com grão para a semana de 29/11.
+O voto A/B de dia 22 (com chouriço ou com espinafres) decide uma variação dos ovos em tomate para a semana de 29/11. O frango com grão e espinafres saiu do plano porque não há fotografia real dele.

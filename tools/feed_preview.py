@@ -26,6 +26,8 @@ def esc(t):
     return re.sub(r"(#\w+|@\w+)", r'<span class="tag">\1</span>', t).replace("\n", "<br>")
 
 first_line = caption.split("\n")[0]
+m_t = re.search(r"<h1>(.*?)</h1>", (post / "carousel.html").read_text(encoding="utf-8"))
+titulo = html.unescape(m_t.group(1)) if m_t else post.name
 slides_html = "".join(f'<img src="{s}" alt="Slide {i+1} de 7" draggable="false">' for i, s in enumerate(slides))
 dots = "".join(f'<i class="{"on" if i == 0 else ""}"></i>' for i in range(7))
 pillar_tone = {"1": "t1", "2": "t2", "3": "t3", "4": "t4", "5": "t5", "6": "t6", "7": "t7"}
@@ -111,7 +113,7 @@ h1{{font-family:var(--display);font-weight:800;font-size:clamp(28px,4vw,40px);le
 </style>
 <div class="intro">
   <div class="eyebrow">Pré-visualização · domingo, 22 nov · 18:30</div>
-  <h1>Frango com grão e espinafres</h1>
+  <h1>{html.escape(titulo)}</h1>
   <p>O primeiro post da página, tal como aparece no feed. Desliza o carrossel, abre a legenda e vê onde fica na grelha do perfil. É só uma simulação.</p>
 </div>
 <div class="wrap">

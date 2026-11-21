@@ -192,6 +192,8 @@ Na raiz: `BRAND.md` (esta ficha), `weekly_plan.md`, `tools/export.js`, `assets/f
 6. **Nunca publiques números de segurança alimentar sem fonte**, e usa sempre o valor mais prudente.
 7. **Tudo real, também os acessórios** (Regra n.º 1). A frigideira, a air fryer, a loiça e os talheres também têm de ser fotografias reais. Nada de ilustração nem de IA.
 8. **O conector do Canva não dá acesso à biblioteca de fotos de stock.** O `create-design` cria imagens novas, ou seja, IA: PNG criado no momento, guardado na conta da utilizadora e sem autor. Testado a 21/11/2026 com o frango com grão, e a imagem foi rejeitada. Pelo conector só servem fotos de stock que já estejam num design, inseridas à mão a partir de Elementos › Fotos, com o autor visível.
+9. **Como ir buscar fotos ao Pexels sem chave (testado a 21/11/2026).** Pesquisa web com `allowed_domains: ["pexels.com"]` para encontrar os IDs das fotos. Depois descarrega diretamente de `https://images.pexels.com/photos/<id>/pexels-photo-<id>.jpeg?auto=compress&cs=tinysrgb&w=2000` (o host está aberto no ambiente "Instagram-"). Vê sempre cada candidata, recorta o que não é da receita e regista o ID e o autor; o EXIF (campo Artist) costuma ter o nome. A API (`api.pexels.com`) dá 401 porque o segredo foi guardado com o prefixo "Bearer"; corrigir em claude.ai/code no computador.
+10. **Se não houver uma foto real do prato, muda-se o prato.** Exemplo: o frango com grão e espinafres não tinha foto no Pexels e foi trocado por ovos escalfados em tomate.
 
 ---
 
