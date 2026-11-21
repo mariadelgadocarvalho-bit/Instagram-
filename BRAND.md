@@ -191,6 +191,7 @@ Na raiz: `BRAND.md` (esta ficha), `weekly_plan.md`, `tools/export.js`, `assets/f
 5. **Preenche os slides.** Espaço vazio a meio do slide parece inacabado; aumenta o tamanho do texto e o espaçamento dos cartões.
 6. **Nunca publiques números de segurança alimentar sem fonte**, e usa sempre o valor mais prudente.
 7. **Tudo real, também os acessórios** (Regra n.º 1). A frigideira, a air fryer, a loiça e os talheres também têm de ser fotografias reais. Nada de ilustração nem de IA.
+8. **O conector do Canva não dá acesso à biblioteca de fotos de stock.** O `create-design` cria imagens novas, ou seja, IA: PNG criado no momento, guardado na conta da utilizadora e sem autor. Testado a 21/11/2026 com o frango com grão, e a imagem foi rejeitada. Pelo conector só servem fotos de stock que já estejam num design, inseridas à mão a partir de Elementos › Fotos, com o autor visível.
 
 ---
 
