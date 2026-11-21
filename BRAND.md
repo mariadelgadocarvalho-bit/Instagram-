@@ -73,7 +73,7 @@ Regra de ouro: **não publicas nada sem a minha aprovação**, exceto quando eu 
    - **Pexels / Unsplash / Wikimedia Commons** pela API oficial. A chave fica nos Network secrets do ambiente, nunca colada no chat.
    A foto tem de mostrar o mesmo prato, ou então o ingrediente ou acessório real. Um prato apenas parecido nunca aparece como "resultado final". Registo o autor, o link e a licença em `fotos/fotos.md` e `sources.md`.
 2. Se não encontrar uma foto real que mostre exatamente o prato, **mudo o tema do dia** para uma receita com fotos reais disponíveis, em vez de usar uma foto errada.
-3. ~~Ilustração~~: **proibida** pela Regra n.º 1. Sem fotos reais, o post fica parado e peço-tas.
+3. ~~Ilustração~~: **proibida** pela Regra n.º 1. Sem fotos reais, o post fica parado até eu as encontrar.
 4. ~~Imagens geradas por IA~~: **proibidas** pela Regra n.º 1, também para acessórios e fundos.
 
 **Antes de usar qualquer imagem, verifica-a:**
