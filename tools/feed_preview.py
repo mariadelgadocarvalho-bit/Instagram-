@@ -26,6 +26,7 @@ def esc(t):
     return re.sub(r"(#\w+|@\w+)", r'<span class="tag">\1</span>', t).replace("\n", "<br>")
 
 first_line = caption.split("\n")[0]
+short_cap = first_line if len(first_line) <= 70 else first_line[:70].rsplit(" ", 1)[0]
 m_t = re.search(r"<h1>(.*?)</h1>", (post / "carousel.html").read_text(encoding="utf-8"))
 titulo = html.unescape(m_t.group(1)) if m_t else post.name
 slides_html = "".join(f'<img src="{s}" alt="Slide {i+1} de 7" draggable="false">' for i, s in enumerate(slides))
@@ -55,18 +56,19 @@ h1{{font-family:var(--display);font-weight:800;font-size:clamp(28px,4vw,40px);le
 .eyebrow{{font-size:12px;letter-spacing:1.4px;font-weight:700;color:var(--green);text-transform:uppercase;margin-bottom:8px}}
 .intro{{max-width:1080px;margin:0 auto 26px}}
 .intro p{{color:var(--muted);margin-top:8px;max-width:62ch;line-height:1.5}}
-.phone{{width:100%;max-width:390px;background:var(--phone);border-radius:46px;padding:12px;box-shadow:0 30px 60px rgba(0,0,0,.25)}}
+.phone{{width:100%;max-width:390px;background:var(--phone);border-radius:46px;padding:12px;box-shadow:0 0 0 1px var(--line),0 30px 60px rgba(0,0,0,.25)}}
 .screen{{background:var(--screen);color:var(--screenInk);border-radius:36px;overflow:hidden}}
 .status{{display:flex;justify-content:space-between;padding:12px 26px 6px;font-size:13px;font-weight:600}}
 .top{{display:flex;align-items:center;gap:10px;padding:8px 14px}}
-.av{{width:34px;height:34px;border-radius:50%;background:var(--paper);display:grid;place-items:center;border:1.5px solid var(--line)}}
+.av{{width:34px;height:34px;border-radius:50%;background:#FFF8EE;flex:none;display:grid;place-items:center;border:1.5px solid var(--line)}}
 .av svg{{width:22px;height:22px}}
 .top b{{font-size:14px}} .top small{{display:block;font-size:11.5px;opacity:.65}}
 .top .more{{margin-left:auto;font-size:20px;opacity:.7;letter-spacing:1px}}
-.car{{position:relative;aspect-ratio:4/5;overflow:hidden;background:#000;touch-action:pan-y}}
-.track{{display:flex;height:100%;transition:transform .35s ease}}
-.track img{{width:100%;height:100%;flex:none;object-fit:cover;user-select:none}}
-@media (prefers-reduced-motion:reduce){{.track{{transition:none}}}}
+.car{{position:relative;aspect-ratio:4/5;overflow:hidden;background:#000}}
+.track{{display:flex;height:100%;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}}
+.track::-webkit-scrollbar{{display:none}}
+.track img{{width:100%;height:100%;flex:none;object-fit:cover;scroll-snap-align:start;scroll-snap-stop:always;user-select:none;-webkit-user-drag:none}}
+@media (prefers-reduced-motion:reduce){{.track{{scroll-behavior:auto}}}}
 .count{{position:absolute;top:12px;right:12px;background:rgba(0,0,0,.6);color:#fff;font-size:12px;font-weight:600;padding:4px 9px;border-radius:99px}}
 .nav{{position:absolute;top:50%;transform:translateY(-50%);width:30px;height:30px;border-radius:50%;border:0;background:rgba(255,255,255,.9);color:#222;font-size:16px;cursor:pointer;display:grid;place-items:center;box-shadow:0 2px 6px rgba(0,0,0,.2)}}
 .nav:focus-visible{{outline:3px solid var(--mustard);outline-offset:2px}}
@@ -79,8 +81,7 @@ h1{{font-family:var(--display);font-weight:800;font-size:clamp(28px,4vw,40px);le
 .dots i{{width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.25}}
 .dots i.on{{background:#3897F0;opacity:1}}
 .cap{{padding:4px 14px 6px;font-size:13.5px;line-height:1.45}}
-.cap .body{{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}}
-.cap.open .body{{display:block}}
+.cap .full{{display:none}} .cap.open .full{{display:inline}} .cap.open .short{{display:none}}
 .cap button{{background:none;border:0;color:inherit;opacity:.6;font:inherit;cursor:pointer;padding:0}}
 .tag{{color:#3B82C4}}
 .comment{{padding:6px 14px 4px;font-size:13.5px;line-height:1.4}}
@@ -98,11 +99,13 @@ h1{{font-family:var(--display);font-weight:800;font-size:clamp(28px,4vw,40px);le
 .cell img{{width:100%;height:100%;object-fit:cover}}
 .cell.soon{{display:flex;flex-direction:column;justify-content:flex-end;padding:8px;gap:3px;color:#2B2118}}
 .cell.soon b{{font-size:11px;letter-spacing:.6px;text-transform:uppercase;opacity:.7}}
-.cell.soon span{{font-family:var(--display);font-weight:800;font-size:13px;line-height:1.1}}
+.cell.soon span{{font-family:var(--display);font-weight:800;font-size:clamp(10.5px,3vw,13px);line-height:1.1;overflow-wrap:anywhere;hyphens:auto}}
+.cell.soon b{{font-size:10px}}
+.cell.soon{{padding:6px}}
 .cell.empty{{background:transparent;border:1px dashed var(--line)}}
 .t1{{background:#F8D9CD}} .t2{{background:#FBE6B7}} .t3{{background:#D5E8D6}} .t4{{background:#F6D3B3}} .t5{{background:#E7DFD3}} .t6{{background:#DCE4EE}} .t7{{background:#F3D6DE}}
 .multi{{position:absolute;top:6px;right:6px;width:14px;height:14px;border:2px solid #fff;border-radius:3px;box-shadow:3px -3px 0 -1px rgba(255,255,255,.8)}}
-.plan{{list-style:none;display:flex;flex-direction:column}}
+.plan{{list-style:none;padding:0;margin:0;display:flex;flex-direction:column}}
 .plan li{{display:grid;grid-template-columns:64px minmax(0,150px) minmax(0,1fr);gap:4px 12px;padding:10px 0;border-top:1px solid var(--line);font-size:14px;align-items:baseline}}
 .plan li .s{{grid-column:3;font-size:12px;color:var(--muted)}}
 .plan .d{{font-weight:700;font-variant-numeric:tabular-nums}}
@@ -119,7 +122,7 @@ h1{{font-family:var(--display);font-weight:800;font-size:clamp(28px,4vw,40px);le
 <div class="wrap">
   <div class="phone"><div class="screen">
     <div class="status"><span>18:30</span><span>5G ▮▮▮</span></div>
-    <div class="top"><div class="av">LOGO</div><div><b>{HANDLE}</b><small>Receitas rápidas</small></div><span class="more">···</span></div>
+    <div class="top"><div class="av">@@LOGO_SVG@@</div><div><b>{HANDLE}</b><small>Receitas rápidas</small></div><span class="more">···</span></div>
     <div class="car" id="car">
       <div class="track" id="track">{slides_html}</div>
       <span class="count" id="count">1/7</span>
@@ -133,7 +136,7 @@ h1{{font-family:var(--display);font-weight:800;font-size:clamp(28px,4vw,40px);le
       <div class="dots" id="dots">{dots}</div>
       <svg class="save" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-5-6 5z"/></svg>
     </div>
-    <div class="cap" id="cap"><div class="body"><b>{HANDLE}</b> {esc(caption)}</div><button id="more" type="button">mais</button></div>
+    <div class="cap" id="cap"><b>{HANDLE}</b> <span class="short">{esc(short_cap)}… <button id="more" type="button">mais</button></span><span class="full">{esc(caption)} <button id="less" type="button">menos</button></span></div>
     <div class="comment"><b>{HANDLE}</b> {esc(first)}<small>Primeiro comentário (fixado)</small></div>
     <div class="when">22 de novembro</div>
   </div></div>
@@ -141,7 +144,7 @@ h1{{font-family:var(--display);font-weight:800;font-size:clamp(28px,4vw,40px);le
     <section class="panel">
       <h2>Grelha do perfil</h2>
       <p class="sub">Corte 3:4. Assim fica o perfil no sábado, 28: o mais recente em cima à esquerda; este post é o último.</p>
-      <div class="prof"><div class="av">LOGO</div><div><b>{NOME}</b><p>Jantares em 20 min com ingredientes do supermercado e pouca loiça 🍳 Uma receita nova por dia. Guarda e segue para nunca mais ficares sem ideias.</p></div></div>
+      <div class="prof"><div class="av">@@LOGO_SVG@@</div><div><b>{NOME}</b><p>Jantares em 20 min com ingredientes do supermercado e pouca loiça 🍳 Uma receita nova por dia. Guarda e segue para nunca mais ficares sem ideias.</p></div></div>
       <div class="grid">{grid}</div>
     </section>
     <section class="panel">
@@ -154,22 +157,23 @@ h1{{font-family:var(--display);font-weight:800;font-size:clamp(28px,4vw,40px);le
 </div>
 <script>
 (function(){{
-  var i=0,n=7,track=document.getElementById('track'),count=document.getElementById('count'),
-      prev=document.getElementById('prev'),next=document.getElementById('next'),dots=document.querySelectorAll('#dots i');
-  function go(k){{i=Math.max(0,Math.min(n-1,k));track.style.transform='translateX('+(-100*i)+'%)';count.textContent=(i+1)+'/'+n;
-    prev.disabled=i===0;next.disabled=i===n-1;dots.forEach(function(d,j){{d.className=j===i?'on':''}});}}
+  var n=7,track=document.getElementById('track'),count=document.getElementById('count'),
+      prev=document.getElementById('prev'),next=document.getElementById('next'),dots=document.querySelectorAll('#dots i'),i=0;
+  function paint(){{count.textContent=(i+1)+'/'+n;prev.disabled=i===0;next.disabled=i===n-1;
+    dots.forEach(function(d,j){{d.className=j===i?'on':''}});}}
+  function go(k){{k=Math.max(0,Math.min(n-1,k));track.scrollTo({{left:k*track.clientWidth}});}}
+  track.addEventListener('scroll',function(){{var k=Math.round(track.scrollLeft/track.clientWidth);if(k!==i){{i=k;paint();}}}},{{passive:true}});
   prev.onclick=function(){{go(i-1)}};next.onclick=function(){{go(i+1)}};
-  document.getElementById('car').addEventListener('keydown',function(e){{if(e.key==='ArrowRight')go(i+1);if(e.key==='ArrowLeft')go(i-1)}});
-  var x0=null,car=document.getElementById('car');
-  car.addEventListener('pointerdown',function(e){{x0=e.clientX}});
-  car.addEventListener('pointerup',function(e){{if(x0===null)return;var dx=e.clientX-x0;if(Math.abs(dx)>40)go(i+(dx<0?1:-1));x0=null}});
-  var cap=document.getElementById('cap'),more=document.getElementById('more');
-  more.onclick=function(){{cap.classList.toggle('open');more.textContent=cap.classList.contains('open')?'menos':'mais'}};
+  track.tabIndex=0;track.addEventListener('keydown',function(e){{if(e.key==='ArrowRight'){{e.preventDefault();go(i+1)}}if(e.key==='ArrowLeft'){{e.preventDefault();go(i-1)}}}});
+  var cap=document.getElementById('cap');
+  document.getElementById('more').onclick=function(){{cap.classList.add('open')}};
+  document.getElementById('less').onclick=function(){{cap.classList.remove('open')}};
+  paint();
 }})();
 </script>
 """
 LOGO = '<svg viewBox="0 0 40 40"><circle cx="20" cy="22" r="15" fill="none" stroke="#2B2118" stroke-width="3.2"/><path d="M20 7 A15 15 0 0 1 32.99 29.5" fill="none" stroke="#E4572E" stroke-width="5" stroke-linecap="round"/><rect x="16" y="1.5" width="8" height="4" rx="1.5" fill="#2B2118"/><line x1="20" y1="22" x2="20" y2="13" stroke="#2B2118" stroke-width="3" stroke-linecap="round"/><circle cx="20" cy="22" r="2.4" fill="#2B2118"/></svg>'
-page = page.replace("LOGO", LOGO)
+page = page.replace("@@LOGO_SVG@@", LOGO)
 fonts = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700..800&family=Inter:wght@400..700&display=swap">\n'
 (post / "feed_preview.html").write_text(fonts + page, encoding="utf-8")
 print("ok", post / "feed_preview.html")
