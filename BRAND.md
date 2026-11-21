@@ -68,8 +68,11 @@ Regra de ouro: **não publicas nada sem a minha aprovação**, exceto quando eu 
 
 ## 3. Imagens: fotografias reais sempre em primeiro lugar
 
-1. **As minhas fotos do prato feito mesmo** são a melhor opção. Peço-tas aqui ou numa pasta do Google Drive. Bastam 4 fotos com luz de janela e sem flash: ingredientes juntos, um passo a meio (ex. frango a alourar), o prato pronto visto de cima e um pormenor.
-2. **Bancos de fotos com licença comercial** (Pexels, Unsplash), só pela API oficial e com chave guardada nos Network secrets do ambiente, nunca colada no chat. A foto tem de mostrar o mesmo prato, ou então o ingrediente ou utensílio real. Um prato apenas parecido nunca aparece como "resultado final". Regista o autor em `sources.md`.
+1. **Sou eu (Claude) que procuro as fotos.** A dona da página não envia fotos. Procuro fotografias reais com licença comercial:
+   - **Canva** (pelo conector): só fotografias de stock reais da biblioteca do Canva, com o autor identificado. **Nunca** imagens do gerador de IA nem do "Magic Media" do Canva (ver lição 1);
+   - **Pexels / Unsplash / Wikimedia Commons** pela API oficial. A chave fica nos Network secrets do ambiente, nunca colada no chat.
+   A foto tem de mostrar o mesmo prato, ou então o ingrediente ou acessório real. Um prato apenas parecido nunca aparece como "resultado final". Registo o autor, o link e a licença em `fotos/fotos.md` e `sources.md`.
+2. Se não encontrar uma foto real que mostre exatamente o prato, **mudo o tema do dia** para uma receita com fotos reais disponíveis, em vez de usar uma foto errada.
 3. ~~Ilustração~~: **proibida** pela Regra n.º 1. Sem fotos reais, o post fica parado e peço-tas.
 4. ~~Imagens geradas por IA~~: **proibidas** pela Regra n.º 1, também para acessórios e fundos.
 
