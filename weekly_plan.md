@@ -23,7 +23,7 @@ O voto A/B de dia 22 (com chouriço ou com espinafres) decide uma variação dos
 ### Marmita dos Miúdos (18:30, dias de escola; as fotos reais confirmam-se no dia)
 | Dia | Marmita |
 |---|---|
-| Seg 23 | Wraps de frango e queijo, enrolados e cortados em rodelas |
+| Seg 23 | Wraps de frango tostados (PRONTO: daily/2026-11-23-miudos-wraps-frango; a dona da página gostou, falta a aprovação final) |
 | Ter 24 | Massa fria com atum, milho e tomate-cereja |
 | Qua 25 | Almôndegas no forno ou na air fryer com puré (no termo) |
 | Qui 26 | Muffins salgados de ovo, queijo e legumes |
