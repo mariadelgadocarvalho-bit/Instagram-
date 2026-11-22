@@ -12,10 +12,10 @@ Contexto: fim de novembro, frio, semana antes do 1.º domingo do Advento (29/11)
 | Sáb 21 (teste) | 1 · Uma frigideira | Ovos escalfados em tomate (20 min) | publicado a 21/11 às 21:20 |
 | Dom 22 | 4 · Sopa rápida | Creme de abóbora e cenoura (20 min, 4 pessoas) | aprovado, agendado para as 12:00 (Story às 12:05) |
 | Seg 23 | 1 · Uma frigideira | Frango à Brás rápido (a confirmar fotos) | proposta |
-| Ter 24 | 3 · Marmita | Arroz de frango desfiado com ervilhas para levar | proposta |
+| Ter 24 | 3 · Marmita de Terça | Arroz de frango desfiado com ervilhas para levar | proposta |
 | Qua 25 | 2 · Air fryer | Salmão com batata-doce aos cubos | proposta |
 | Qui 26 | 5 · Só 5 ingredientes | Esparguete com atum, tomate e alcaparras | proposta |
-| Sex 27 | 7 · Doce rápido (só à sexta) | Maçã caramelizada na frigideira com canela e iogurte | proposta |
+| Sex 27 | 7 · Sexta Doce | Maçã caramelizada na frigideira com canela e iogurte | proposta |
 | Sáb 28 | 3 · Marmita | Chili de carne picada com feijão, num tacho (dá para a marmita) | proposta |
 
 O voto A/B de dia 22 (com chouriço ou com espinafres) decide uma variação dos ovos em tomate para a semana de 29/11. O frango com grão e espinafres saiu do plano porque não há fotografia real dele.
