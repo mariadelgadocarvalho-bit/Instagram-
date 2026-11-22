@@ -202,6 +202,33 @@ Na raiz: `BRAND.md` (esta ficha), `weekly_plan.md`, `tools/export.js`, `assets/f
 9. **Como ir buscar fotos ao Pexels sem chave (testado a 21/11/2026).** Pesquisa web com `allowed_domains: ["pexels.com"]` para encontrar os IDs das fotos. Depois descarrega diretamente de `https://images.pexels.com/photos/<id>/pexels-photo-<id>.jpeg?auto=compress&cs=tinysrgb&w=2000` (o host está aberto no ambiente "Instagram-"). Vê sempre cada candidata, recorta o que não é da receita e regista o ID e o autor; o EXIF (campo Artist) costuma ter o nome. A API (`api.pexels.com`) dá 401 porque o segredo foi guardado com o prefixo "Bearer"; corrigir em claude.ai/code no computador.
 10. **Se não houver uma foto real do prato, muda-se o prato.** Exemplo: o frango com grão e espinafres não tinha foto no Pexels e foi trocado por ovos escalfados em tomate.
 
+## 12. Envolvimento (o que fazemos em todos os posts, desde 22/11/2026)
+
+**No carrossel**
+- **Slide 1 vende o prato:** foto real com bom aspeto, nome curto e chips (tempo, utensílio, pessoas, custo). Sem texto por cima da foto.
+- **Slide 2 é um segundo gancho que muda todos os dias** (o Instagram volta a mostrar o slide 2 a quem não deslizou).
+- **7 slides:** chega para dar valor e é curto para se ver até ao fim.
+- **Slide 6 "Guarda isto"** (trocas e sobras): é o que leva a guardar o post, que é o sinal que mais pesa num post de receitas.
+- **Slide 7 com voto A/B:** dá comentários e decide a receita da semana seguinte, por isso as pessoas voltam.
+
+**Na legenda**
+- **1.ª linha com palavras que as pessoas procuram** (o Instagram já funciona como motor de pesquisa): "Jantar rápido…", "…em 20 minutos".
+- O isco para guardar e o isco para partilhar, o custo por pessoa e a pergunta A/B.
+- **3 a 5 hashtags** específicas. Mais do que isso não ajuda.
+- **Texto alternativo** em todas as imagens (ajuda a pesquisa e a acessibilidade).
+
+**Séries com nome (para criar hábito)**
+- **Sexta Doce:** a sobremesa de sexta tem sempre o kicker "SEXTA DOCE".
+- **Marmita de Terça:** à terça, sempre que possível, um prato que dá para levar no dia seguinte (kicker "MARMITA DE TERÇA").
+
+**Depois de publicar (tarefas da dona da página, que não se fazem por API)**
+1. **Responder a todos os comentários na primeira hora.** É o que mais ajuda o post a chegar a mais gente.
+2. **Pôr a sondagem A/B na Story** e, a seguir, partilhar o post também na Story com "Novo post".
+3. **Fixar no perfil os 3 posts com mais guardados** e criar destaques: Frigideira · Air fryer · Marmitas · Sexta Doce.
+4. Comentar 5 a 10 posts de contas portuguesas de receitas parecidas, com comentários a sério e não só emojis.
+
+**Revisão semanal (domingo à noite, automática):** guardados, partilhas, alcance e comentários de cada post. Ajusta a hora, os temas e os ganchos com base nos dados da própria conta, logo que haja 2 semanas de histórico.
+
 ---
 
 **Para começar:** cria os 10 nomes (secção 1), instala o setup (letras, Playwright, a pasta `tools/`), faz o plano dos próximos 7 dias e mostra-me o primeiro preview, recriando o carrossel de exemplo do anexo A com o nome novo.
