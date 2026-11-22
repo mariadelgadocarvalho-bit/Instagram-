@@ -8,7 +8,7 @@ Contexto: fim de novembro, frio, semana antes do 1.º domingo do Advento (29/11)
 | Dia | Pilar | Tema | Estado |
 |---|---|---|---|
 | Sáb 21 (teste) | 1 · Uma frigideira | Ovos escalfados em tomate (20 min) | publicado a 21/11 às 21:20 |
-| Dom 22 | 4 · Sopa rápida | Creme de abóbora e cenoura (20 min, 4 pessoas) | preview pronto, à espera de aprovação para as 10:30 |
+| Dom 22 | 4 · Sopa rápida | Creme de abóbora e cenoura (20 min, 4 pessoas) | aprovado, agendado para as 12:00 (Story às 12:05) |
 | Seg 23 | 1 · Uma frigideira | Bifinhos de peru com cogumelos (a confirmar fotos) | proposta |
 | Ter 24 | 3 · Marmita | Arroz de frango desfiado com ervilhas para levar | proposta |
 | Qua 25 | 2 · Air fryer | Salmão com batata-doce aos cubos | proposta |
