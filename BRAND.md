@@ -37,7 +37,7 @@
 | Logótipo | Cronómetro com o arco dos primeiros 20 minutos a tomate + o nome da página em minúsculas (wordmark) |
 | Tagline | RÁPIDO · PRÁTICO · DO DIA A DIA |
 | Repositório / ramo | `mariadelgadocarvalho-bit/Instagram-` / `claude/blissful-keller-0no35s` |
-| Hora da tarefa diária | **Tarefa automática às 8:47 (Lisboa)**: ideia, fotos reais, carrossel, legenda, Story e preview prontos para aprovação até às 10:15. **Publicação às 10:30**, a hora de maior envolvimento segundo o Metricool (pico das 10h às 11h todos os dias), e dá o dia inteiro para comprar os ingredientes. Sempre depois da aprovação da dona da página; sem aprovação, nada é publicado. |
+| Hora da tarefa diária | **Tarefa automática às 8:47 (Lisboa)**: prepara os posts do dia e manda-os juntos para uma só aprovação, até às 12:15. **12:30: jantar** (todos os dias); dá tempo para comprar os ingredientes e apanha o pico de envolvimento. **18:30: Marmita dos Miúdos** (só de segunda a sexta); é a hora em que os pais preparam a lancheira de amanhã. Sem aprovação, nada é publicado. |
 
 ---
 
@@ -224,7 +224,7 @@ Na raiz: `BRAND.md` (esta ficha), `weekly_plan.md`, `tools/export.js`, `assets/f
 
 **Séries com nome (para criar hábito)**
 - **Sexta Doce:** a sobremesa de sexta tem sempre o kicker "SEXTA DOCE".
-- **Marmita de Terça:** à terça, sempre que possível, um prato que dá para levar no dia seguinte (kicker "MARMITA DE TERÇA").
+- **Marmita dos Miúdos:** de segunda a sexta às 18:30 (ver secção 14).
 
 **Depois de publicar (tarefas da dona da página, que não se fazem por API)**
 1. **Responder a todos os comentários na primeira hora.** É o que mais ajuda o post a chegar a mais gente.
@@ -249,6 +249,17 @@ Na raiz: `BRAND.md` (esta ficha), `weekly_plan.md`, `tools/export.js`, `assets/f
 **Linguagem (obrigatório):** os desafios são de **variedade e organização**, nunca de dieta. Proibido: "dieta", "emagrecer", "perder peso", "queimar gordura", "detox", "sem culpa", "saudável", "light" como promessa e calorias sem as contas identificadas (ver secção 5). Usar: "jantares sem arroz que matam a fome", "mais legumes no prato", "para variar da rotina", "mais leve no prato" (no sentido de quantidade, nunca de saúde).
 
 **Calendário:** a primeira semana de cada mês. O primeiro desafio é a **Semana sem arroz, de segunda 30/11 a domingo 6/12/2026**, apresentado no domingo 29/11. A revisão semanal de domingo prepara o plano do desafio.
+
+## 14. Marmita dos Miúdos (desde 23/11/2026)
+
+**O que é:** um 2.º carrossel nos dias de escola (segunda a sexta), às **18:30**, para a lancheira ou marmita do dia seguinte das crianças.
+- **Receitas:** mais simples do que o jantar, com ingredientes do dia a dia de que as crianças gostam (massa, frango, ovo, queijo, wraps, panquecas salgadas, almôndegas, legumes "escondidos"). No máximo 15–20 min, ou feitas ao jantar e reaproveitadas. Que se comam frias ou num termo.
+- **Formato:** o mesmo modelo de 7 slides, fundo branco. Kicker "MARMITA DOS MIÚDOS"; chips: tempo · "lancheira" ou "termo" · n.º de doses · custo por dose.
+- **Slide 5 "Ponto seguro" (obrigatório):** como chega segura à hora do almoço. Frio: lancheira térmica com placa de gelo, ou frigorífico até sair de casa. Quente: termo pré-aquecido com água a ferver e comida a escaldar. Sempre com fonte oficial (FSIS/USDA, FSA, ASAE).
+- **Alergénios:** nunca frutos de casca rija nem amendoim (muitas escolas proíbem). Indica sempre os alergénios no slide 7 e na legenda.
+- **Linguagem:** nunca "nutritiva", "saudável" nem "equilibrada" como promessa. Usar: "comem até ao fim", "aprovado pelos miúdos", "com legumes escondidos", "sem complicações".
+- **Voto A/B:** entre duas variações que as crianças escolham ("com queijo ou com fiambre?").
+- **Revisão:** se ao fim de 2 semanas a Marmita dos Miúdos baixar o alcance médio da conta, reduz para 3 dias por semana (segunda, quarta e sexta).
 
 ---
 

@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 post = Path(sys.argv[1]).resolve()
 imgs = Path(sys.argv[2]).resolve()
+HORA = sys.argv[3] if len(sys.argv) > 3 else "12:30"
 NOME, HANDLE = "toca a jantar", "tocaajantar"
 
 def b64(p):
@@ -122,13 +123,13 @@ h1{{font-family:var(--display);font-weight:800;font-size:clamp(28px,4vw,40px);le
 .note{{font-size:12px;color:var(--muted);line-height:1.5}}
 </style>
 <div class="intro">
-  <div class="eyebrow">Pré-visualização · {DIA_TXT} · 10:30</div>
+  <div class="eyebrow">Pré-visualização · {DIA_TXT} · {HORA}</div>
   <h1>{html.escape(titulo)}</h1>
   <p>O post de hoje, tal como aparece no feed. Desliza o carrossel, abre a legenda e vê onde fica na grelha do perfil. É só uma simulação.</p>
 </div>
 <div class="wrap">
   <div class="phone"><div class="screen">
-    <div class="status"><span>10:30</span><span>5G ▮▮▮</span></div>
+    <div class="status"><span>{HORA}</span><span>5G ▮▮▮</span></div>
     <div class="top"><div class="av">@@LOGO_SVG@@</div><div><b>{HANDLE}</b><small>Receitas rápidas</small></div><span class="more">···</span></div>
     <div class="car" id="car">
       <div class="track" id="track">{slides_html}</div>
