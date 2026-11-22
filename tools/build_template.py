@@ -5,6 +5,10 @@ HERE = Path(__file__).parent
 FONTS = "../../assets/fonts"
 NOME = "toca a jantar"   # wordmark do cabeçalho
 HANDLE = "@tocaajantar"
+# GANCHO do slide 2: MUDA TODOS OS DIAS (nunca repetir o da semana anterior; ver report/ganchos.txt)
+GANCHO = "São 19h30.<br>Não há nada feito."
+# CUSTO aproximado por pessoa (conta em sources.md, preços de supermercado PT do mês)
+CUSTO = "≈1,80&nbsp;€"
 # REGRA N.º 1: só fotografias reais (alimentos, ingredientes, prato final e acessórios).
 # Se faltar uma foto, aparece um aviso FALTA FOTO REAL e o export final recusa-se a correr.
 FOTO_CAPA = HERE / "fotos" / "capa.jpg"            # prato acabado, visto de cima
@@ -39,11 +43,11 @@ slides.append(frame(1, f"""
   <div class="kicker">JANTAR NUMA FRIGIDEIRA</div>
   <h1>Ovos escalfados em tomate</h1>
   {('<img class="hero" src="fotos/capa.jpg" alt="">' if FOTO_CAPA.exists() else MISSING('capa.jpg', 'prato pronto visto de cima', 'hero'))}
-  <div class="chips"><span class="chip red">20 min</span><span class="chip">1 frigideira</span><span class="chip">2 pessoas</span></div>
+  <div class="chips"><span class="chip red">20 min</span><span class="chip">1 frigideira</span><span class="chip">2 pessoas</span><span class="chip cost">{CUSTO}/pessoa</span></div>
 """, "desliza →", "s1"))
 
 slides.append(frame(2, f"""
-  <h2 class="big">São 19h30.<br>Não há nada feito.</h2>
+  <h2 class="big">{GANCHO}</h2>
   <p class="lead">Tens ovos e uma lata de tomate? Então tens jantar.</p>
   <ul class="ticks"><li>Sem forno</li><li>Só uma frigideira para lavar</li><li>Tudo da despensa</li></ul>
   <div class="promise">{LOGO}<div><b>20 minutos</b><span>do frigorífico à mesa, numa só frigideira</span></div></div>
@@ -54,7 +58,7 @@ ING = [("Ovos", "4"), ("Tomate pelado", "1 lata (400 g)"), ("Pimento vermelho", 
        ("Pimentão-doce", "1 c. chá"), ("Salsa picada", "1 punhado"), ("Sal e pimenta", "a gosto")]
 rows = "".join(f'<li><span>{a}</span><i></i><b>{b}</b></li>' for a, b in ING)
 slides.append(frame(3, f"""
-  <div class="kicker">INGREDIENTES · 2 PESSOAS</div>
+  <div class="kicker">INGREDIENTES · 2 PESSOAS · {CUSTO} POR PESSOA</div>
   <h2>Ovos, uma lata e pouco mais</h2>
   {('<img class="flat" src="fotos/ingredientes.jpg" alt="">' if FOTO_INGREDIENTES.exists() else MISSING('ingredientes.jpg', 'ingredientes juntos', 'flat'))}
   <ul class="ing compact">{rows}</ul>
@@ -127,8 +131,9 @@ h2.big{{font-size:40px;letter-spacing:-1.3px;margin-top:22px}}
 .hero{{width:100%;height:250px;object-fit:cover;border-radius:16px;margin:12px 0 10px;display:block}}
 .flat{{width:100%;height:104px;object-fit:cover;border-radius:12px;margin:-4px 0 8px;display:block}}
 .ing.compact li{{padding:3.5px 0;font-size:13.5px}}
-.chips{{display:flex;gap:7px;justify-content:center;margin-top:4px}}
-.chip{{border:2px solid var(--ink);border-radius:99px;padding:5px 12px;font-weight:700;font-size:13px}}
+.chips{{display:flex;gap:5px;justify-content:center;margin-top:4px}}
+.chip{{border:2px solid var(--ink);border-radius:99px;padding:5px 9px;font-weight:700;font-size:12px;white-space:nowrap}}
+.chip.cost{{border-color:var(--green);color:var(--green)}}
 .chip.red{{background:var(--red);border-color:var(--red);color:#fff}}
 .lead{{font-size:17px;line-height:1.4;margin-top:6px}}
 .ticks{{list-style:none;margin-top:22px}}

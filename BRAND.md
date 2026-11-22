@@ -123,6 +123,10 @@ Modelo atual: `tools/build_template.py`. Copia-o para `daily/<post>/build.py`.
 | 6 · Guarda isto | 5 cartões: trocas de ingredientes, acompanhamento, sobras | "Ajuda-nos a escolher →" |
 | 7 · Voto | "Qual é a próxima versão?" + botões A (tomate) e B (manjericão) + "Comenta A ou B 👇" + "Segue @handle: um jantar rápido por dia." + frase para guardar + aviso de alergénios | — |
 
+**Gancho do slide 2: muda todos os dias** (desde 22/11/2026). Mantém as regras: situação do dia a dia, curto, que funcione sozinho. Exemplos: "Sobrou frango de ontem? Perfeito." · "5 ingredientes, 0 desculpas." · "Jantar por menos de 2 € por pessoa." · "Frigorífico vazio, despensa cheia?" · "Chegaste às 20h? Ainda vais a tempo.". Regista cada gancho em `report/ganchos.txt` e não repitas nenhum na mesma semana nem na seguinte.
+
+**Custo por pessoa** (desde 22/11/2026): chip verde "≈X,XX €/pessoa" no slide 1 e no kicker do slide 3. Calcula-o com preços de supermercado português (Continente, Pingo Doce, Lidl ou Auchan) do mês, pela pesquisa web, contando só a parte usada de cada embalagem. Arredonda para cima, aos 0,10 €. A conta, com os preços e as fontes, fica em `sources.md`. Nunca inventes preços; se não conseguires confirmar algum, diz-o em `sources.md` e usa um valor prudente (mais alto). Na legenda, acrescenta "≈X € por pessoa (preços de supermercado, <mês>)".
+
 Cabeçalho em todos os slides: cronómetro + nome em minúsculas à esquerda, "n/7" à direita. Rodapé: @handle à esquerda, frase-isco a tomate à direita.
 
 **Técnica (já testada):**
