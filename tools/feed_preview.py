@@ -25,6 +25,13 @@ def esc(t):
     t = html.escape(t)
     return re.sub(r"(#\w+|@\w+)", r'<span class="tag">\1</span>', t).replace("\n", "<br>")
 
+import datetime as _dt
+_m = re.match(r"(\d{4})-(\d{2})-(\d{2})", post.name)
+_d = _dt.date(int(_m[1]), int(_m[2]), int(_m[3])) if _m else _dt.date.today()
+_MES = ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro']
+_DIA = ['segunda','terça','quarta','quinta','sexta','sábado','domingo']
+DIA_TXT = f"{_DIA[_d.weekday()]}, {_d.day} {_MES[_d.month-1][:3]}"
+DIA_CURTO = f"{_d.day} de {_MES[_d.month-1]}"
 first_line = caption.split("\n")[0]
 short_cap = first_line if len(first_line) <= 70 else first_line[:70].rsplit(" ", 1)[0]
 m_t = re.search(r"<h1>(.*?)</h1>", (post / "carousel.html").read_text(encoding="utf-8"))
@@ -115,13 +122,13 @@ h1{{font-family:var(--display);font-weight:800;font-size:clamp(28px,4vw,40px);le
 .note{{font-size:12px;color:var(--muted);line-height:1.5}}
 </style>
 <div class="intro">
-  <div class="eyebrow">Pré-visualização · domingo, 22 nov · 18:30</div>
+  <div class="eyebrow">Pré-visualização · {DIA_TXT} · 10:30</div>
   <h1>{html.escape(titulo)}</h1>
-  <p>O primeiro post da página, tal como aparece no feed. Desliza o carrossel, abre a legenda e vê onde fica na grelha do perfil. É só uma simulação.</p>
+  <p>O post de hoje, tal como aparece no feed. Desliza o carrossel, abre a legenda e vê onde fica na grelha do perfil. É só uma simulação.</p>
 </div>
 <div class="wrap">
   <div class="phone"><div class="screen">
-    <div class="status"><span>18:30</span><span>5G ▮▮▮</span></div>
+    <div class="status"><span>10:30</span><span>5G ▮▮▮</span></div>
     <div class="top"><div class="av">@@LOGO_SVG@@</div><div><b>{HANDLE}</b><small>Receitas rápidas</small></div><span class="more">···</span></div>
     <div class="car" id="car">
       <div class="track" id="track">{slides_html}</div>
@@ -138,7 +145,7 @@ h1{{font-family:var(--display);font-weight:800;font-size:clamp(28px,4vw,40px);le
     </div>
     <div class="cap" id="cap"><b>{HANDLE}</b> <span class="short">{esc(short_cap)}… <button id="more" type="button">mais</button></span><span class="full">{esc(caption)} <button id="less" type="button">menos</button></span></div>
     <div class="comment"><b>{HANDLE}</b> {esc(first)}<small>Primeiro comentário (fixado)</small></div>
-    <div class="when">22 de novembro</div>
+    <div class="when">{DIA_CURTO}</div>
   </div></div>
   <div class="side">
     <section class="panel">
