@@ -27,7 +27,8 @@
 | Língua do conteúdo | Português de Portugal, a tratar por "tu". Medidas em g, ml, c. sopa, c. chá; temperaturas em °C |
 | Língua para falar comigo | Português de Portugal |
 | Formato | **Só carrosséis**, nunca Reels. Mais uma Story de divulgação 5 min depois de cada post |
-| Pilares (rodar, nunca o mesmo em 2 dias seguidos) | 1. Uma frigideira/tacho · 2. Air fryer · 3. Marmita (almoço para levar) · 4. Sopa rápida · 5. Só 5 ingredientes (despensa) · 6. Básicos e truques · 7. Doce rápido |
+| Pilares (rodar, nunca o mesmo em 2 dias seguidos) | 1. Uma frigideira/tacho · 2. Air fryer · 3. Marmita (almoço para levar) · 4. **Sopa-refeição** · 5. Só 5 ingredientes (despensa) · 6. Básicos e truques · 7. Doce rápido |
+| **Prioridade (desde 22/11/2026)** | **Pratos principais primeiro.** Pelo menos 5 dos 7 dias são pratos principais: carne, peixe, ovos, massa, arroz ou leguminosas, que matem a fome ao jantar. **Sopa no máximo 1 vez por semana**, e só **sopa-refeição**: sopa cheia que valha por um jantar (com leguminosas, carne, peixe, massa ou ovo; por exemplo sopa de feijão com chouriço, sopa de grão com espinafres e ovo, canja com massa e frango). Nada de cremes leves sozinhos. No texto, diz "sopa que vale um jantar" ou "mata a fome", nunca "nutritiva" nem "saudável" (são alegações de saúde proibidas). Doce e básicos só quando fizer sentido, no máximo 1 vez por semana cada. |
 | Tom | Próximo, direto, com humor leve; passos curtos com o tempo de cada passo; sem pretensão |
 | Palavras proibidas | gourmet, superalimento, detox, "sem culpa", "queima gordura", "emagrece", "cura", e qualquer alegação de saúde ou nutrição não autorizada (Reg. (CE) 1924/2006) |
 | Aviso | "Tempos aproximados · Confirma alergénios (contém X)" |
