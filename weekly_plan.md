@@ -29,7 +29,7 @@ O voto A/B de dia 22 (com chouriço ou com espinafres) decide uma variação dos
 | Qui 26 | Muffins salgados de ovo, queijo e legumes |
 | Sex 27 | Quesadillas de feijão e queijo |
 
-## Proposta da revisão de 22/11 (falta a aprovação da dona da página)
+## Plano aprovado a 22/11 (29/11 a 6/12)
 
 ### Dom 29/11 · apresentação do desafio
 - Jantar 12:30: **Bifinhos de peru com cogumelos e puré** (pilar 1).
@@ -42,7 +42,7 @@ O voto A/B de dia 22 (com chouriço ou com espinafres) decide uma variação dos
 | Ter 1/12 (feriado) | Esparguete com camarão, alho e limão | — (não há escola) |
 | Qua 2 | Hambúrgueres de frango na air fryer com batata-doce | Mini-pizzas de pão de forma |
 | Qui 3 | Gnocchi na frigideira com salsicha e tomate | Salada de massa com frango e milho |
-| Sex 4 | **Sexta Doce:** bolo de caneca de chocolate (micro-ondas) | Bolinhas de batata e atum |
+| Sex 4 | **Sexta Doce:** "Bolo-Rei" de caneca no micro-ondas (fruta cristalizada e passas por cima; alternativa se não houver foto real: laranja e azeite) | Bolinhas de batata e atum |
 | Sáb 5 | Sopa-refeição: grão com chouriço e couve | — |
 | Dom 6 | Bitoque com ovo e batata (fecho do desafio: "Conseguiste?") | — |
 
