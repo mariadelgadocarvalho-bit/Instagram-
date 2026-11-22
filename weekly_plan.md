@@ -2,7 +2,7 @@
 
 Publicação às **10:30** (Lisboa): é a hora de maior envolvimento segundo o Metricool e dá tempo para comprar os ingredientes. Tarefa às 8:47, aprovação até às 10:15.
 
-**Desde 22/11:** de domingo a quinta e ao sábado, só **pratos ou sopas que sirvam de jantar**. **Sobremesa só à sexta-feira.** Para a próxima semana fica guardado o frango à Brás rápido.
+**Desde 22/11:** de domingo a quinta e ao sábado, só **pratos ou sopas que sirvam de jantar**. **Sobremesa só à sexta-feira.** Os bifinhos de peru com cogumelos ficam guardados para a próxima semana.
 
 Regra n.º 1: cada dia só avança com fotografias reais dos alimentos, dos ingredientes, do prato final e dos acessórios.
 Contexto: fim de novembro, frio, semana antes do 1.º domingo do Advento (29/11). Tendências de época **gerais, não específicas de Portugal**: pratos de uma só panela, air fryer, marmitas, comida de conforto.
@@ -11,7 +11,7 @@ Contexto: fim de novembro, frio, semana antes do 1.º domingo do Advento (29/11)
 |---|---|---|---|
 | Sáb 21 (teste) | 1 · Uma frigideira | Ovos escalfados em tomate (20 min) | publicado a 21/11 às 21:20 |
 | Dom 22 | 4 · Sopa rápida | Creme de abóbora e cenoura (20 min, 4 pessoas) | aprovado, agendado para as 12:00 (Story às 12:05) |
-| Seg 23 | 1 · Uma frigideira | Bifinhos de peru com cogumelos (a confirmar fotos) | proposta |
+| Seg 23 | 1 · Uma frigideira | Frango à Brás rápido (a confirmar fotos) | proposta |
 | Ter 24 | 3 · Marmita | Arroz de frango desfiado com ervilhas para levar | proposta |
 | Qua 25 | 2 · Air fryer | Salmão com batata-doce aos cubos | proposta |
 | Qui 26 | 5 · Só 5 ingredientes | Esparguete com atum, tomate e alcaparras | proposta |
