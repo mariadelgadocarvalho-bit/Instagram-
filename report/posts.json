@@ -35,10 +35,11 @@
     "tipo": "carrossel",
     "pilar": "4 · Sopa rápida",
     "titulo": "Creme de abóbora e cenoura",
-    "estado": "agendado",
+    "estado": "publicado",
     "metricool_id": 437440692,
     "uuid": "3344632235542265987",
-    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=3344632235542265987"
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=3344632235542265987",
+    "instagram": "https://www.instagram.com/p/DgCw09mCrAH/"
   },
   {
     "pasta": "daily/2026-11-22-creme-abobora-cenoura",
@@ -48,9 +49,10 @@
     "tipo": "story",
     "pilar": "4 · Sopa rápida",
     "titulo": "Story: novo post creme de abóbora",
-    "estado": "agendado",
+    "estado": "publicado",
     "metricool_id": 437440720,
     "uuid": "-4325202753890334031",
-    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-4325202753890334031"
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-4325202753890334031",
+    "instagram": "https://www.instagram.com/stories/tocaajantar/4036003431897948895"
   }
 ]
