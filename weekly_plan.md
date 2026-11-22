@@ -19,3 +19,6 @@ Contexto: fim de novembro, frio, semana antes do 1.º domingo do Advento (29/11)
 | Sáb 28 | 3 · Marmita | Chili de carne picada com feijão, num tacho (dá para a marmita) | proposta |
 
 O voto A/B de dia 22 (com chouriço ou com espinafres) decide uma variação dos ovos em tomate para a semana de 29/11. O frango com grão e espinafres saiu do plano porque não há fotografia real dele.
+
+## Próximo: Desafio "Semana sem arroz" (30/11 a 6/12)
+Apresentado no domingo 29/11, com Story e lista de compras. 7 jantares sem arroz, com batata, massa, leguminosas, legumes ou pão. Sexta Doce incluída. A revisão de domingo 29/11 fecha o plano com as fotos reais disponíveis.

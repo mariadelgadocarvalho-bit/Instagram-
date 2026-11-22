@@ -234,6 +234,22 @@ Na raiz: `BRAND.md` (esta ficha), `weekly_plan.md`, `tools/export.js`, `assets/f
 
 **Revisão semanal (domingo à noite, automática):** guardados, partilhas, alcance e comentários de cada post. Ajusta a hora, os temas e os ganchos com base nos dados da própria conta, logo que haja 2 semanas de histórico.
 
+## 13. Desafios semanais (desde 22/11/2026)
+
+**O que são:** 1 semana por mês com um tema que liga os 7 posts. Exemplos: **Semana sem arroz** · Semana sem fritos · Semana só com 5 ingredientes · Semana da marmita · Semana com menos de 2 € por pessoa · Semana de peixe.
+
+**Como aparece:**
+- O kicker do slide 1 passa a ser "DESAFIO · SEMANA SEM ARROZ · DIA 3/7".
+- O slide 7 mantém o voto A/B e junta "Estás no desafio? Comenta ✅".
+- A legenda leva a hashtag da página **#desafiotocaajantar** (conta para o limite de 5).
+- **Domingo antes do desafio:** a Story de apresentação ("Amanhã começa a Semana sem arroz. Quem vem?") e a lista de compras da semana no último slide do post de domingo.
+- **Sábado (dia 7):** fecho com "Conseguiste? Conta-nos" e o tema do próximo desafio a votos.
+- A sobremesa de sexta ("Sexta Doce") continua, mas respeita o tema do desafio.
+
+**Linguagem (obrigatório):** os desafios são de **variedade e organização**, nunca de dieta. Proibido: "dieta", "emagrecer", "perder peso", "queimar gordura", "detox", "sem culpa", "saudável", "light" como promessa e calorias sem as contas identificadas (ver secção 5). Usar: "jantares sem arroz que matam a fome", "mais legumes no prato", "para variar da rotina", "mais leve no prato" (no sentido de quantidade, nunca de saúde).
+
+**Calendário:** a primeira semana de cada mês. O primeiro desafio é a **Semana sem arroz, de segunda 30/11 a domingo 6/12/2026**, apresentado no domingo 29/11. A revisão semanal de domingo prepara o plano do desafio.
+
 ---
 
 **Para começar:** cria os 10 nomes (secção 1), instala o setup (letras, Playwright, a pasta `tools/`), faz o plano dos próximos 7 dias e mostra-me o primeiro preview, recriando o carrossel de exemplo do anexo A com o nome novo.
