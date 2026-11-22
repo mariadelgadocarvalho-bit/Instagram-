@@ -29,5 +29,24 @@ O voto A/B de dia 22 (com chouriço ou com espinafres) decide uma variação dos
 | Qui 26 | Muffins salgados de ovo, queijo e legumes |
 | Sex 27 | Quesadillas de feijão e queijo |
 
+## Proposta da revisão de 22/11 (falta a aprovação da dona da página)
+
+### Dom 29/11 · apresentação do desafio
+- Jantar 12:30: **Bifinhos de peru com cogumelos e puré** (pilar 1).
+- Story à noite: "Amanhã começa a Semana sem arroz. Quem vem?" e a lista de compras no último slide do post.
+
+### Desafio "Semana sem arroz" (30/11 a 6/12)
+| Dia | Jantar 12:30 (sem arroz) | Marmita dos Miúdos 18:30 |
+|---|---|---|
+| Seg 30 | Ovos em tomate na versão vencedora do voto (chouriço ou espinafres), com pão | Panquecas salgadas de espinafres e queijo |
+| Ter 1/12 (feriado) | Esparguete com camarão, alho e limão | — (não há escola) |
+| Qua 2 | Hambúrgueres de frango na air fryer com batata-doce | Mini-pizzas de pão de forma |
+| Qui 3 | Gnocchi na frigideira com salsicha e tomate | Salada de massa com frango e milho |
+| Sex 4 | **Sexta Doce:** bolo de caneca de chocolate (micro-ondas) | Bolinhas de batata e atum |
+| Sáb 5 | Sopa-refeição: grão com chouriço e couve | — |
+| Dom 6 | Bitoque com ovo e batata (fecho do desafio: "Conseguiste?") | — |
+
+As fotos reais confirmam-se no dia; se faltar alguma, troca-se o prato por outro sem arroz.
+
 ## Próximo: Desafio "Semana sem arroz" (30/11 a 6/12)
 Apresentado no domingo 29/11, com Story e lista de compras. 7 jantares sem arroz, com batata, massa, leguminosas, legumes ou pão. Sexta Doce incluída. A revisão de domingo 29/11 fecha o plano com as fotos reais disponíveis.
