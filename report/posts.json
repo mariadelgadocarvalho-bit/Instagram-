@@ -91,7 +91,7 @@
     "tipo": "carrossel",
     "pilar": "Marmita dos Miúdos",
     "titulo": "Wraps de frango tostados",
-    "estado": "publicado",
+    "estado": "publicado (capa fraca; substituído, a apagar pela dona da página)",
     "metricool_id": 438606665,
     "uuid": "-1899376419889265479",
     "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-1899376419889265479",
@@ -106,11 +106,37 @@
     "tipo": "story",
     "pilar": "Marmita dos Miúdos",
     "titulo": "Story wraps",
-    "estado": "publicado",
+    "estado": "publicado (capa fraca; substituído, a apagar pela dona da página)",
     "metricool_id": 438606755,
     "uuid": "-3817267644453205296",
     "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-3817267644453205296",
     "nota": "refeito em fundo creme a 23/11 11:01",
     "instagram": "https://www.instagram.com/stories/tocaajantar/4036916969873980064"
+  },
+  {
+    "pasta": "daily/2026-11-23-miudos-wraps-frango",
+    "data": "2026-11-23",
+    "hora": "19:40",
+    "fuso": "Europe/Lisbon",
+    "tipo": "carrossel",
+    "pilar": "Marmita dos Miúdos",
+    "titulo": "Wraps de frango tostados (capa nova)",
+    "estado": "agendado (exceção: publicado pelo Claude)",
+    "metricool_id": 439319580,
+    "uuid": "-666180896440564942",
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-666180896440564942"
+  },
+  {
+    "pasta": "daily/2026-11-23-miudos-wraps-frango",
+    "data": "2026-11-23",
+    "hora": "19:45",
+    "fuso": "Europe/Lisbon",
+    "tipo": "story",
+    "pilar": "Marmita dos Miúdos",
+    "titulo": "Story wraps (capa nova)",
+    "estado": "agendado (exceção)",
+    "metricool_id": 439319673,
+    "uuid": "-3419335777233253871",
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-3419335777233253871"
   }
 ]
