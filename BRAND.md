@@ -227,6 +227,7 @@ Na raiz: `BRAND.md` (esta ficha), `weekly_plan.md`, `tools/export.js`, `assets/f
 - **Marmita dos Miúdos:** de segunda a sexta às 18:30 (ver secção 14).
 
 **Depois de publicar (tarefas da dona da página, que não se fazem por API)**
+0. **Pôr música no post**, editando-o no Instagram depois de publicado (decidido a 23/11/2026: o Claude continua a publicar sozinho pelo Metricool, e a música entra depois, à mão).
 1. **Responder a todos os comentários na primeira hora.** É o que mais ajuda o post a chegar a mais gente.
 2. **Pôr a sondagem A/B na Story** e, a seguir, partilhar o post também na Story com "Novo post".
 3. **Fixar no perfil os 3 posts com mais guardados** e criar destaques: Frigideira · Air fryer · Marmitas · Sexta Doce.
