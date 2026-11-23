@@ -10,3 +10,4 @@
 |---|---|---|---|---|
 | capa.jpg (nova) | wrap tostado com marcas de grelha, cortado ao meio: frango desfiado, fiambre, cenoura ralada, brócolos | Pexels 15010305 (original 4000×5328, recorte reduzido a 3000 px) | Natan Machado Fotografia Gastronômica · https://www.pexels.com/photo/15010305/ | A capa publicada (Pexels 9624298) era fraca: cinzenta e com o wrap pequeno. Os slide_*.jpg desta pasta continuam a ser os que foram publicados. Se o post for repetido, a receita ajusta-se: brócolos em vez de alface e mais 1 fatia de fiambre de peru. |
 | capa.jpg | (23/11, à noite) | Pexels 15010305 com ajuste de cor a pedido da dona da página: tortilha mais dourada e marcas da grelha mais escuras, mais contraste e saturação. Só cor; nada acrescentado nem removido. |
+| capa.jpg | (23/11, à noite) | Ajuste de cor anulado a pedido da dona da página: volta a foto 15010305 original (só recortada). |
