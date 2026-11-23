@@ -11,7 +11,7 @@ Contexto: fim de novembro, frio, semana antes do 1.º domingo do Advento (29/11)
 |---|---|---|---|
 | Sáb 21 (teste) | 1 · Uma frigideira | Ovos escalfados em tomate (20 min) | publicado a 21/11 às 21:20 |
 | Dom 22 | 4 · Sopa rápida | Creme de abóbora e cenoura (20 min, 4 pessoas) | publicado a 22/11 às 12:00 (Story às 12:05) |
-| Seg 23 | 1 · Uma frigideira | Frango à Brás rápido (a confirmar fotos) | proposta |
+| Seg 23 | 1 · Uma frigideira | Massa salteada com porco e pimento (15 min) · substitui o frango à Brás, que não tem foto real | preview pronto, à espera de aprovação para as 12:30 |
 | Ter 24 | 3 · Marmita | Arroz de frango desfiado com ervilhas para levar | proposta |
 | Qua 25 | 2 · Air fryer | Salmão com batata-doce aos cubos | proposta |
 | Qui 26 | 5 · Só 5 ingredientes | Esparguete com atum, tomate e alcaparras | proposta |
