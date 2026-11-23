@@ -121,10 +121,11 @@
     "tipo": "carrossel",
     "pilar": "Marmita dos Miúdos",
     "titulo": "Wraps de frango tostados (capa nova)",
-    "estado": "agendado (exceção: publicado pelo Claude)",
+    "estado": "publicado (exceção)",
     "metricool_id": 439319580,
     "uuid": "-666180896440564942",
-    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-666180896440564942"
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-666180896440564942",
+    "instagram_metricool": "https://www.instagram.com/p/DgGJ56dCpSa/ (link do Metricool, por confirmar nas estatísticas)"
   },
   {
     "pasta": "daily/2026-11-23-miudos-wraps-frango",
@@ -134,7 +135,7 @@
     "tipo": "story",
     "pilar": "Marmita dos Miúdos",
     "titulo": "Story wraps (capa nova)",
-    "estado": "agendado (exceção)",
+    "estado": "publicado (exceção)",
     "metricool_id": 439319673,
     "uuid": "-3419335777233253871",
     "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-3419335777233253871"
