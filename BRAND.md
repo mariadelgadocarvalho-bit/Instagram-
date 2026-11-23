@@ -502,3 +502,9 @@ mkdir -p assets/fonts
 - **Sem acordo com a marca** (o caso atual): nada de #publicidade, #parceria ou #oferta, e nada que dê a entender que a marca patrocina ou aprova. Junta o convite de colaboração no Metricool (`instagramData.collaborators: [{"username":"pescanova_pt","deleted":false}]`); a marca aceita ou não.
 - **Se um dia houver acordo** (dinheiro, produto oferecido ou combinação): é obrigatório pôr **#parceria** ou **#oferta** no início da legenda (guia da DGC).
 - As fotos continuam a seguir a Regra n.º 1. Fotos oficiais da marca só com autorização escrita.
+
+## 16. Quem publica (desde 23/11/2026)
+**O Claude NÃO publica nem agenda nada no Metricool.** Depois da aprovação, entrega à dona da página, com SendUserFile:
+- `slide_1.jpg` … `slide_7.jpg` (1080×1350) e `story.jpg` (1080×1920);
+- `PUBLICAR.txt`, com os passos, a legenda, o primeiro comentário, a sondagem da Story e, quando houver, a colaboração (ex.: convidar @pescanova_pt).
+É ela que publica, põe a música e fixa o comentário. O Metricool continua a servir para as estatísticas e para a melhor hora (que o Claude indica na mensagem).

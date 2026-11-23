@@ -30,3 +30,10 @@ Links: https://www.continente.pt/produto/wrap-de-trigo-continente-7730894.html �
 
 ## Alergénios
 Glúten (wrap), leite (queijo, iogurte). Sem frutos de casca rija nem amendoim.
+
+## Atualização 23/11 (post repetido com capa nova, Pexels 15010305)
+O recheio passa a seguir a foto: sai a alface (0,22 €) e entram o fiambre e os brócolos.
+| Fiambre de peru | Nobre Fatias Finas 140 g | 2,10 € (15,00 €/kg) | 4 fatias ≈ 60 g | 0,90 € |
+| Brócolos | Couve Brócolo Continente | 3,69 €/kg | 150 g | 0,55 € |
+**Novo total:** 4,32 − 0,22 + 0,90 + 0,55 = 5,55 € ÷ 4 doses = 1,39 € → **≈1,40 € por dose**.
+Tempos: 2 + 5 + 2 (brócolos no micro-ondas e cenoura) + 3 + 2 + 1 = 15 min.

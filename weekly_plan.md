@@ -23,7 +23,7 @@ O voto A/B de dia 22 (com chouriço ou com espinafres) decide uma variação dos
 ### Marmita dos Miúdos (18:30, dias de escola; as fotos reais confirmam-se no dia)
 | Dia | Marmita |
 |---|---|
-| Seg 23 | Wraps de frango tostados · publicado a 23/11 às 18:15 (Story às 18:20) |
+| Seg 23 | Wraps de frango tostados · publicado a 23/11 às 18:15 com capa fraca; refeito com a capa nova (Pexels 15010305) e entregue para a dona da página publicar |
 | Ter 24 | Massa fria com atum, milho e tomate-cereja |
 | Qua 25 | **Douradinhos caseiros de pescada na air fryer** com medalhões Pescanova, sem pele nem espinhas (menção à @pescanova_pt na legenda e no slide 6 + convite de colaboração no Metricool; SEM indicação de parceria, porque não há acordo). "Ponto seguro": confirmar espinhas e lancheira com placa de gelo ou termo. Almôndegas passam para outra semana. |
 | Qui 26 | Muffins salgados de ovo, queijo e legumes |

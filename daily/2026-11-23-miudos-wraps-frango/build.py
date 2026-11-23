@@ -8,7 +8,7 @@ HANDLE = "@tocaajantar"
 # GANCHO do slide 2: MUDA TODOS OS DIAS (nunca repetir o da semana anterior; ver report/ganchos.txt)
 GANCHO = "Lancheira de amanhã?<br>Resolvida."
 # CUSTO aproximado por pessoa (conta em sources.md, preços de supermercado PT do mês)
-CUSTO = "≈1,10&nbsp;€"
+CUSTO = "≈1,40&nbsp;€"
 # REGRA N.º 1: só fotografias reais (alimentos, ingredientes, prato final e acessórios).
 # Se faltar uma foto, aparece um aviso FALTA FOTO REAL e o export final recusa-se a correr.
 FOTO_CAPA = HERE / "fotos" / "capa.jpg"            # prato acabado, visto de cima
@@ -53,9 +53,9 @@ slides.append(frame(2, f"""
   <div class="promise">{LOGO}<div><b>15 minutos</b><span>da frigideira à lancheira, 4 doses</span></div></div>
 """, "Do que precisas →", "s2"))
 
-ING = [("Wraps de trigo", "4"), ("Peito de frango", "300 g"), ("Queijo flamengo", "4 fatias"),
-       ("Alface", "4 folhas"), ("Cenoura ralada", "1"), ("Iogurte natural", "1 (125 g)"),
-       ("Azeite", "1 c. sopa"), ("Pimentão-doce", "1 c. chá"), ("Sal", "1 pitada")]
+ING = [("Wraps de trigo", "4"), ("Peito de frango", "300 g"), ("Fiambre de peru", "4 fatias"),
+       ("Queijo flamengo", "4 fatias"), ("Brócolos", "150 g"), ("Cenoura ralada", "1"),
+       ("Iogurte natural", "1 (125 g)"), ("Azeite", "1 c. sopa"), ("Pimentão-doce e sal", "q.b.")]
 rows = "".join(f'<li><span>{a}</span><i></i><b>{b}</b></li>' for a, b in ING)
 slides.append(frame(3, f"""
   <div class="kicker">INGREDIENTES · 4 DOSES · {CUSTO} POR DOSE</div>
@@ -71,7 +71,7 @@ slides.append(frame(4, f"""
   <div class="steps">
   {step(1, "Corta o frango em tiras finas. Tempera com sal e pimentão&#8209;doce.", "2&nbsp;min")}
   {step(2, "Azeite em lume médio-alto. Aloura as tiras até não haver rosa por dentro.", "5&nbsp;min")}
-  {step(3, "Rala a cenoura e mistura o iogurte com uma pitada de sal.", "2&nbsp;min")}
+  {step(3, "Brócolos picados 2 min no micro-ondas. Rala a cenoura.", "2&nbsp;min")}
   </div>
   <div class="tip"><b>Truque:</b> tiras finas cozinham depressa e os miúdos comem-nas sem faca.</div>
 """, "Falta pouco →"))
@@ -80,7 +80,7 @@ slides.append(frame(5, f"""
   <div class="kicker">PASSOS 4 A 6</div>
   <h2>Depois, enrolar</h2>
   <div class="steps">
-  {step(4, "Barra o wrap com iogurte. Põe frango, queijo, alface e cenoura. Enrola bem apertado.", "3&nbsp;min")}
+  {step(4, "Barra com iogurte. Frango, fiambre, queijo, brócolos e cenoura. Enrola bem apertado.", "3&nbsp;min")}
   {step(5, "Tosta na frigideira 1 minuto de cada lado, até ficar com marcas.", "2&nbsp;min")}
   {step(6, "Deixa arrefecer, corta ao meio e embrulha em papel vegetal.", "1&nbsp;min")}
   </div>
@@ -93,7 +93,7 @@ slides.append(frame(6, f"""
   <ul class="swap">
    <li><b>Sobrou frango do jantar?</b><span>usa-o desfiado e salta os passos 1 e 2</span></li>
    <li><b>Sem frango</b><span>atum escorrido ou ovo cozido picado</span></li>
-   <li><b>Não gostam de alface</b><span>milho escorrido ou pepino às tiras</span></li>
+   <li><b>Não gostam de brócolos</b><span>alface, milho escorrido ou pepino às tiras</span></li>
    <li><b>Para a lancheira</b><span>fruta e água; a placa de gelo por cima do wrap</span></li>
    <li><b>Na véspera</b><span>faz ao jantar; frigorífico até de manhã, come no dia seguinte</span></li>
   </ul>
@@ -101,7 +101,7 @@ slides.append(frame(6, f"""
 
 slides.append(frame(7, f"""
   <h2 class="big">Qual é a próxima versão?</h2>
-  <div class="vote"><div class="btn a"><b>A</b>Com fiambre</div><div class="btn b"><b>B</b>Com atum</div></div>
+  <div class="vote"><div class="btn a"><b>A</b>Com ovo cozido</div><div class="btn b"><b>B</b>Com atum</div></div>
   <p class="cta">Comenta <b>A</b> ou <b>B</b> {DOWN}</p>
   <p class="follow">Segue <b>{HANDLE}</b>: um jantar e uma marmita por dia.</p>
   <p class="saveline">Guarda para a próxima manhã de pressa.</p>
