@@ -6,7 +6,7 @@ FONTS = "../../assets/fonts"
 NOME = "toca a jantar"   # wordmark do cabeçalho
 HANDLE = "@tocaajantar"
 # GANCHO do slide 2: MUDA TODOS OS DIAS (nunca repetir o da semana anterior; ver report/ganchos.txt)
-GANCHO = "Ias pedir comida?<br>Espera 15 min."
+GANCHO = "Ias pedir jantar?<br>Espera 15 min."
 # CUSTO aproximado por pessoa (conta em sources.md, preços de supermercado PT do mês)
 CUSTO = "≈1,80&nbsp;€"
 # REGRA N.º 1: só fotografias reais (alimentos, ingredientes, prato final e acessórios).
