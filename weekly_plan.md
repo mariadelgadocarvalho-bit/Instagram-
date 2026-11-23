@@ -25,7 +25,7 @@ O voto A/B de dia 22 (com chouriço ou com espinafres) decide uma variação dos
 |---|---|
 | Seg 23 | Wraps de frango tostados · agendado para as 18:15 (Story às 18:20) |
 | Ter 24 | Massa fria com atum, milho e tomate-cereja |
-| Qua 25 | Almôndegas no forno ou na air fryer com puré (no termo) |
+| Qua 25 | **Douradinhos caseiros de pescada na air fryer** com medalhões Pescanova, sem pele nem espinhas (menção à @pescanova_pt na legenda e no slide 6 + convite de colaboração no Metricool; SEM indicação de parceria, porque não há acordo). "Ponto seguro": confirmar espinhas e lancheira com placa de gelo ou termo. Almôndegas passam para outra semana. |
 | Qui 26 | Muffins salgados de ovo, queijo e legumes |
 | Sex 27 | Quesadillas de feijão e queijo |
 

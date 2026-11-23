@@ -495,3 +495,9 @@ mkdir -p assets/fonts
 # Bricolage Grotesque (opsz,wght@12..96,500..800) -> assets/fonts/Bricolage.woff2
 # Inter (wght@400..800)                          -> assets/fonts/Inter.woff2
 ```
+
+## 15. Marcas e colaborações (desde 23/11/2026)
+- Podemos mencionar marcas de que gostamos (ex.: medalhões de pescada **@pescanova_pt**), com uma justificação verdadeira e confirmada no site da marca (ex.: "não têm pele nem espinhas, segundo a Pescanova").
+- **Sem acordo com a marca** (o caso atual): nada de #publicidade, #parceria ou #oferta, e nada que dê a entender que a marca patrocina ou aprova. Junta o convite de colaboração no Metricool (`instagramData.collaborators: [{"username":"pescanova_pt","deleted":false}]`); a marca aceita ou não.
+- **Se um dia houver acordo** (dinheiro, produto oferecido ou combinação): é obrigatório pôr **#parceria** ou **#oferta** no início da legenda (guia da DGC).
+- As fotos continuam a seguir a Regra n.º 1. Fotos oficiais da marca só com autorização escrita.
