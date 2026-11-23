@@ -91,11 +91,12 @@
     "tipo": "carrossel",
     "pilar": "Marmita dos Miúdos",
     "titulo": "Wraps de frango tostados",
-    "estado": "agendado",
+    "estado": "publicado",
     "metricool_id": 438606665,
     "uuid": "-1899376419889265479",
     "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-1899376419889265479",
-    "nota": "refeito em fundo creme a 23/11 11:01"
+    "nota": "refeito em fundo creme a 23/11 11:01",
+    "instagram": "https://www.instagram.com/p/DgGAMhIiOs4/"
   },
   {
     "pasta": "daily/2026-11-23-miudos-wraps-frango",
@@ -105,10 +106,11 @@
     "tipo": "story",
     "pilar": "Marmita dos Miúdos",
     "titulo": "Story wraps",
-    "estado": "agendado",
+    "estado": "publicado",
     "metricool_id": 438606755,
     "uuid": "-3817267644453205296",
     "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-3817267644453205296",
-    "nota": "refeito em fundo creme a 23/11 11:01"
+    "nota": "refeito em fundo creme a 23/11 11:01",
+    "instagram": "https://www.instagram.com/stories/tocaajantar/4036916969873980064"
   }
 ]
