@@ -20,7 +20,7 @@ const fs = require('fs');
 @font-face{font-family:'Bricolage';src:url('${fonts}/Bricolage.woff2') format('woff2');font-weight:200 800}
 @font-face{font-family:'Inter';src:url('${fonts}/Inter.woff2') format('woff2');font-weight:100 900}
 *{margin:0;padding:0;box-sizing:border-box}
-body{width:1080px;height:1920px;background:#FFFFFF;font-family:'Inter';color:#2B2118;position:relative;overflow:hidden}
+body{width:1080px;height:1920px;background:#FFF8EE;font-family:'Inter';color:#2B2118;position:relative;overflow:hidden}
 .card{position:absolute;left:160px;top:270px;width:760px;height:950px;border-radius:36px;overflow:hidden;box-shadow:0 24px 60px rgba(43,33,24,.22);transform:rotate(-2deg)}
 .card img{width:100%;height:100%;display:block}
 .band{position:absolute;left:0;right:0;top:1290px;background:#E4572E;color:#fff;font-family:'Bricolage';font-weight:800;font-size:50px;letter-spacing:-.5px;text-align:center;padding:30px 0;display:flex;justify-content:center;align-items:center;gap:20px}

@@ -103,7 +103,7 @@ slides.append(frame(7, f"""
   <h2 class="big">Qual é a próxima versão?</h2>
   <div class="vote"><div class="btn a"><b>A</b>Com fiambre</div><div class="btn b"><b>B</b>Com atum</div></div>
   <p class="cta">Comenta <b>A</b> ou <b>B</b> {DOWN}</p>
-  <p class="follow">Segue <b>{HANDLE}</b>: jantar ao meio-dia, marmita às 18:30.</p>
+  <p class="follow">Segue <b>{HANDLE}</b>: um jantar e uma marmita por dia.</p>
   <p class="saveline">Guarda para a próxima manhã de pressa.</p>
   <p class="legal">Tempos aproximados · Confirma alergénios (contém glúten e leite)</p>
 """, None, "s7"))
@@ -111,7 +111,7 @@ slides.append(frame(7, f"""
 CSS = f"""
 @font-face{{font-family:'Bricolage';src:url('{FONTS}/Bricolage.woff2') format('woff2');font-weight:200 800}}
 @font-face{{font-family:'Inter';src:url('{FONTS}/Inter.woff2') format('woff2');font-weight:100 900}}
-:root{{--bg:#FFFFFF;--ink:#2B2118;--red:#E4572E;--green:#3A7D44;--mustard:#F2B134;--muted:#9A8F84;--card:#FFFFFF}}
+:root{{--bg:#FFF8EE;--ink:#2B2118;--red:#E4572E;--green:#3A7D44;--mustard:#F2B134;--muted:#9A8F84;--card:#FFFFFF}}
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{background:#E9E2D6;font-family:'Inter',sans-serif;color:var(--ink)}}
 .grid{{display:flex;flex-wrap:wrap;gap:16px;padding:16px;width:{420*4+16*5}px}}
@@ -144,13 +144,13 @@ h2.big{{font-size:40px;letter-spacing:-1.3px;margin-top:22px}}
 .ing li i{{flex:1;border-bottom:1.5px dotted #CDBFA9;transform:translateY(-3px)}}
 .ing li b{{font-weight:700;white-space:nowrap}}
 .steps{{display:flex;flex-direction:column;gap:13px}}
-.step{{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;background:var(--card);border-radius:14px;padding:15px 13px;box-shadow:none;border:1px solid #ECE6DE}}
+.step{{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;background:var(--card);border-radius:14px;padding:15px 13px;box-shadow:0 1px 0 #EADFCD}}
 .num{{width:34px;height:34px;border-radius:50%;background:var(--ink);color:#fff;font-family:'Bricolage';font-weight:800;font-size:17px;display:grid;place-items:center}}
 .step p{{font-size:14.6px;line-height:1.38}}
 .min{{font-size:11.5px;font-weight:700;color:var(--red);background:#FCE6DE;border-radius:99px;padding:4px 8px;white-space:nowrap}}
 .safe{{margin-top:16px;font-size:13px;line-height:1.4;background:#FDF1D3;border-left:4px solid var(--mustard);padding:9px 11px;border-radius:6px}}
 .swap{{list-style:none;display:flex;flex-direction:column;gap:8px}}
-.swap li{{background:var(--card);border-radius:12px;padding:10px 13px;display:flex;flex-direction:column;gap:2px;box-shadow:none;border:1px solid #ECE6DE}}
+.swap li{{background:var(--card);border-radius:12px;padding:10px 13px;display:flex;flex-direction:column;gap:2px;box-shadow:0 1px 0 #EADFCD}}
 .swap b{{font-size:13px;color:var(--red)}}
 .swap span{{font-size:13.5px}}
 .vote{{display:flex;gap:10px;margin-top:6px}}
@@ -163,12 +163,12 @@ h2.big{{font-size:40px;letter-spacing:-1.3px;margin-top:22px}}
 .s2 h2.big{{font-size:41px;margin-top:14px}}
 .s2 .lead{{font-size:18px}}
 .s2 .ticks{{margin-top:16px}} .s2 .ticks li{{font-size:17px;padding:8px 0}}
-.promise{{margin-top:auto;margin-bottom:12px;display:flex;align-items:center;gap:12px;background:#FFFFFF;border:1px solid #ECE6DE;border-radius:14px;padding:12px 14px}}
+.promise{{margin-top:auto;margin-bottom:12px;display:flex;align-items:center;gap:12px;background:#FDF1D3;border-radius:14px;padding:12px 14px}}
 .promise .logo{{width:38px;height:38px;flex:none}}
 .promise b{{display:block;font-family:'Bricolage';font-size:22px;letter-spacing:-.4px}}
 .promise span{{font-size:13.5px}}
 #s4 .step{{padding:14px 13px}} #s4 .step p{{font-size:14.8px}}
-.tip{{margin-top:auto;margin-bottom:12px;font-size:13.5px;line-height:1.4;background:#FFFFFF;border:1px solid #ECE6DE;border-left:4px solid var(--green);padding:10px 12px;border-radius:6px}}
+.tip{{margin-top:auto;margin-bottom:12px;font-size:13.5px;line-height:1.4;background:#E6F0E4;border-left:4px solid var(--green);padding:10px 12px;border-radius:6px}}
 .down{{width:20px;height:20px;vertical-align:-3px}}
 #s7 h2.big{{font-size:44px;margin-top:26px}}
 #s7 .btn{{padding:22px 14px;font-size:16.5px}}
