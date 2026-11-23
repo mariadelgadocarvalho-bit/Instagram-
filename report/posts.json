@@ -54,5 +54,57 @@
     "uuid": "-4325202753890334031",
     "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-4325202753890334031",
     "instagram": "https://www.instagram.com/stories/tocaajantar/4036003431897948895"
+  },
+  {
+    "pasta": "daily/2026-11-23-massa-salteada-porco",
+    "data": "2026-11-23",
+    "hora": "10:30",
+    "fuso": "Europe/Lisbon",
+    "tipo": "carrossel",
+    "pilar": "1 · Uma frigideira",
+    "titulo": "Massa salteada com porco",
+    "estado": "agendado",
+    "metricool_id": 438483706,
+    "uuid": "-6408703375328852952",
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-6408703375328852952"
+  },
+  {
+    "pasta": "daily/2026-11-23-massa-salteada-porco",
+    "data": "2026-11-23",
+    "hora": "10:35",
+    "fuso": "Europe/Lisbon",
+    "tipo": "story",
+    "pilar": "1 · Uma frigideira",
+    "titulo": "Story massa salteada",
+    "estado": "agendado",
+    "metricool_id": 438483781,
+    "uuid": "7549079536411758198",
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=7549079536411758198"
+  },
+  {
+    "pasta": "daily/2026-11-23-miudos-wraps-frango",
+    "data": "2026-11-23",
+    "hora": "18:15",
+    "fuso": "Europe/Lisbon",
+    "tipo": "carrossel",
+    "pilar": "Marmita dos Miúdos",
+    "titulo": "Wraps de frango tostados",
+    "estado": "agendado",
+    "metricool_id": 438483878,
+    "uuid": "-1899376419889265479",
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-1899376419889265479"
+  },
+  {
+    "pasta": "daily/2026-11-23-miudos-wraps-frango",
+    "data": "2026-11-23",
+    "hora": "18:20",
+    "fuso": "Europe/Lisbon",
+    "tipo": "story",
+    "pilar": "Marmita dos Miúdos",
+    "titulo": "Story wraps",
+    "estado": "agendado",
+    "metricool_id": 438483956,
+    "uuid": "-3817267644453205296",
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-3817267644453205296"
   }
 ]
