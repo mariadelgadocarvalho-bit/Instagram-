@@ -63,10 +63,11 @@
     "tipo": "carrossel",
     "pilar": "1 · Uma frigideira",
     "titulo": "Massa salteada com porco",
-    "estado": "agendado",
+    "estado": "publicado",
     "metricool_id": 438483706,
     "uuid": "-6408703375328852952",
-    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-6408703375328852952"
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-6408703375328852952",
+    "instagram": "https://www.instagram.com/p/DgFLBdJCrho/"
   },
   {
     "pasta": "daily/2026-11-23-massa-salteada-porco",
@@ -76,10 +77,11 @@
     "tipo": "story",
     "pilar": "1 · Uma frigideira",
     "titulo": "Story massa salteada",
-    "estado": "agendado",
+    "estado": "publicado",
     "metricool_id": 438483781,
     "uuid": "7549079536411758198",
-    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=7549079536411758198"
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=7549079536411758198",
+    "instagram": "https://www.instagram.com/stories/tocaajantar/4036682893190760737"
   },
   {
     "pasta": "daily/2026-11-23-miudos-wraps-frango",
