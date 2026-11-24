@@ -508,3 +508,6 @@ mkdir -p assets/fonts
 - `slide_1.jpg` … `slide_7.jpg` (1080×1350) e `story.jpg` (1080×1920);
 - `PUBLICAR.txt`, com os passos, a legenda, o primeiro comentário, a sondagem da Story e, quando houver, a colaboração (ex.: convidar @pescanova_pt).
 É ela que publica, põe a música e fixa o comentário. O Metricool continua a servir para as estatísticas e para a melhor hora (que o Claude indica na mensagem).
+
+## 16-A. Atualização a 24/11/2026: volta a publicar o Claude
+A dona da página decidiu: **o Claude publica (agenda no Metricool) depois da aprovação dela**, como antes da secção 16. Mantém-se: nada sai sem aprovação; a hora é a sugerida pelo Metricool; verificação 8 min depois de cada publicação; lembrar a música, fixar o primeiro comentário, a sondagem na Story e responder aos comentários na 1.ª hora.
