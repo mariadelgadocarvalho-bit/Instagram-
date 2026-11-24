@@ -139,5 +139,23 @@
     "metricool_id": 439319673,
     "uuid": "-3419335777233253871",
     "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-3419335777233253871"
+  },
+  {
+    "pasta": "daily/2026-11-24-arroz-frango-ervilhas",
+    "data": "2026-11-24",
+    "hora": "10:30 (sugerida)",
+    "tipo": "carrossel + story",
+    "pilar": "3 · Marmita",
+    "titulo": "Arroz de frango com ervilhas",
+    "estado": "entregue para publicar"
+  },
+  {
+    "pasta": "daily/2026-11-24-miudos-massa-atum",
+    "data": "2026-11-24",
+    "hora": "18:15 (sugerida)",
+    "tipo": "carrossel + story",
+    "pilar": "Marmita dos Miúdos",
+    "titulo": "Massa cremosa com atum",
+    "estado": "entregue para publicar"
   }
 ]
