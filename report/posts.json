@@ -161,10 +161,11 @@
     "tipo": "carrossel + story",
     "pilar": "Marmita dos Miúdos",
     "titulo": "Massa cremosa com atum",
-    "estado": "agendado pelo Claude (pedido da dona da página)",
+    "estado": "publicado",
     "uuid": "8422025816917820405",
     "metricool_id": 439977448,
     "story_uuid": "7620221810533616485",
-    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=8422025816917820405"
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=8422025816917820405",
+    "story": "publicada"
   }
 ]

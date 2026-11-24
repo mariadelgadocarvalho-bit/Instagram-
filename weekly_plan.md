@@ -24,7 +24,7 @@ O voto A/B de dia 22 (com chouriço ou com espinafres) decide uma variação dos
 | Dia | Marmita |
 |---|---|
 | Seg 23 | Wraps de frango tostados · publicado a 23/11 às 18:15 com capa fraca; refeito com a capa nova (Pexels 15010305) e entregue para a dona da página publicar |
-| Ter 24 | Massa cremosa com atum, fria (agendada no Metricool para as 18:15) |
+| Ter 24 | Massa cremosa com atum, fria (publicada a 24/11 às 18:15) |
 | Qua 25 | **Douradinhos caseiros de pescada na air fryer** com medalhões Pescanova, sem pele nem espinhas (menção à @pescanova_pt na legenda e no slide 6 + convite de colaboração no Metricool; SEM indicação de parceria, porque não há acordo). "Ponto seguro": confirmar espinhas e lancheira com placa de gelo ou termo. Almôndegas passam para outra semana. |
 | Qui 26 | Muffins salgados de ovo, queijo e legumes |
 | Sex 27 | Quesadillas de feijão e queijo |
