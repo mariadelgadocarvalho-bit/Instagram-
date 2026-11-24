@@ -147,11 +147,12 @@
     "tipo": "carrossel + story",
     "pilar": "3 · Marmita",
     "titulo": "Arroz de frango com ervilhas",
-    "estado": "agendado pelo Claude (pedido da dona da página)",
+    "estado": "publicado",
     "uuid": "-1273872775760884845",
     "metricool_id": 439976954,
     "story_uuid": "-1165942630061094541",
-    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-1273872775760884845"
+    "url": "https://app.metricool.com/planner/calendar?blogId=8274260&openWithPostUuid=-1273872775760884845",
+    "story": "publicada"
   },
   {
     "pasta": "daily/2026-11-24-miudos-massa-atum",
