@@ -103,7 +103,7 @@ slides.append(frame(7, f"""
   <h2 class="big">Qual é a próxima versão?</h2>
   <div class="vote"><div class="btn a"><b>A</b>Com chouriço</div><div class="btn b"><b>B</b>Com espinafres</div></div>
   <p class="cta">Comenta <b>A</b> ou <b>B</b> {DOWN}</p>
-  <p class="follow">Segue <b>{HANDLE}</b>: um jantar rápido por dia.</p>
+  <p class="follow">Segue <b>{HANDLE}</b>: um jantar e uma marmita por dia.</p>
   <p class="saveline">Guarda para quando só houver ovos em casa.</p>
   <p class="legal">Tempos aproximados · Confirma alergénios (contém ovo; com pão, glúten)</p>
 """, None, "s7"))

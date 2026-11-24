@@ -12,7 +12,7 @@ Contexto: fim de novembro, frio, semana antes do 1.º domingo do Advento (29/11)
 | Sáb 21 (teste) | 1 · Uma frigideira | Ovos escalfados em tomate (20 min) | publicado a 21/11 às 21:20 |
 | Dom 22 | 4 · Sopa rápida | Creme de abóbora e cenoura (20 min, 4 pessoas) | publicado a 22/11 às 12:00 (Story às 12:05) |
 | Seg 23 | 1 · Uma frigideira | Massa salteada com porco e pimento (15 min) · substitui o frango à Brás, que não tem foto real | publicado a 23/11 às 10:30 (Story às 10:35) |
-| Ter 24 | 3 · Marmita | Arroz de frango desfiado com ervilhas para levar | proposta |
+| Ter 24 | 3 · Marmita | Arroz de frango com ervilhas (25 min, 4 doses) | preview pronto, à espera de aprovação |
 | Qua 25 | 2 · Air fryer | Salmão com batata-doce aos cubos | proposta |
 | Qui 26 | 5 · Só 5 ingredientes | Esparguete com atum, tomate e alcaparras | proposta |
 | Sex 27 | 7 · Sexta Doce | Maçã caramelizada na frigideira com canela e iogurte | proposta |
@@ -24,7 +24,7 @@ O voto A/B de dia 22 (com chouriço ou com espinafres) decide uma variação dos
 | Dia | Marmita |
 |---|---|
 | Seg 23 | Wraps de frango tostados · publicado a 23/11 às 18:15 com capa fraca; refeito com a capa nova (Pexels 15010305) e entregue para a dona da página publicar |
-| Ter 24 | Massa fria com atum, milho e tomate-cereja |
+| Ter 24 | Massa cremosa com atum, fria (preview pronto, à espera de aprovação) |
 | Qua 25 | **Douradinhos caseiros de pescada na air fryer** com medalhões Pescanova, sem pele nem espinhas (menção à @pescanova_pt na legenda e no slide 6 + convite de colaboração no Metricool; SEM indicação de parceria, porque não há acordo). "Ponto seguro": confirmar espinhas e lancheira com placa de gelo ou termo. Almôndegas passam para outra semana. |
 | Qui 26 | Muffins salgados de ovo, queijo e legumes |
 | Sex 27 | Quesadillas de feijão e queijo |

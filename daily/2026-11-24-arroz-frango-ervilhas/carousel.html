@@ -1,0 +1,179 @@
+<!doctype html><html lang="pt-PT"><head><meta charset="utf-8"><title>toca a jantar — carrossel</title>
+<style>
+@font-face{font-family:'Bricolage';src:url('../../assets/fonts/Bricolage.woff2') format('woff2');font-weight:200 800}
+@font-face{font-family:'Inter';src:url('../../assets/fonts/Inter.woff2') format('woff2');font-weight:100 900}
+:root{--bg:#FFF8EE;--ink:#2B2118;--red:#E4572E;--green:#3A7D44;--mustard:#F2B134;--muted:#9A8F84;--card:#FFFFFF}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#E9E2D6;font-family:'Inter',sans-serif;color:var(--ink)}
+.grid{display:flex;flex-wrap:wrap;gap:16px;padding:16px;width:1760px}
+.slide{width:420px;height:525px;background:var(--bg);position:relative;overflow:hidden;display:flex;flex-direction:column;padding:22px 26px 18px}
+header{display:flex;justify-content:space-between;align-items:center}
+.brand{display:flex;align-items:center;gap:7px;font-family:'Bricolage';font-weight:800;font-size:14px;letter-spacing:-.2px}
+.logo{width:22px;height:22px}
+.count{font-size:11px;color:var(--muted);font-weight:600}
+.body{flex:1;display:flex;flex-direction:column;padding-top:18px}
+footer{display:flex;justify-content:space-between;align-items:center;font-size:11px;color:var(--muted);font-weight:600}
+.teaser{color:var(--red);font-weight:700;font-size:12.5px}
+.kicker{font-size:10.5px;letter-spacing:1.6px;font-weight:700;color:var(--green);display:flex;align-items:center;gap:5px}
+.pin{width:13px;height:13px}
+h1{font-family:'Bricolage';font-weight:800;font-size:43px;line-height:.98;letter-spacing:-1.4px;margin-top:8px}
+h2{font-family:'Bricolage';font-weight:800;font-size:29px;line-height:1.05;letter-spacing:-.8px;margin:6px 0 14px}
+h2.big{font-size:40px;letter-spacing:-1.3px;margin-top:22px}
+.hero{width:100%;height:250px;object-fit:cover;border-radius:16px;margin:12px 0 10px;display:block}
+.flat{width:100%;height:104px;object-fit:cover;border-radius:12px;margin:-4px 0 8px;display:block}
+.ing.compact li{padding:3.5px 0;font-size:13.5px}
+.chips{display:flex;gap:5px;justify-content:center;margin-top:4px}
+.chip{border:2px solid var(--ink);border-radius:99px;padding:5px 9px;font-weight:700;font-size:12px;white-space:nowrap}
+.chip.cost{border-color:var(--green);color:var(--green)}
+.chip.red{background:var(--red);border-color:var(--red);color:#fff}
+.lead{font-size:17px;line-height:1.4;margin-top:6px}
+.ticks{list-style:none;margin-top:22px}
+.ticks li{font-size:16px;font-weight:600;padding:9px 0;border-bottom:1.5px dashed #E3D6C2;display:flex;align-items:center;gap:10px}
+.ticks li:before{content:'';width:18px;height:18px;border-radius:50%;background:var(--green) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M5 9.5l2.6 2.6L13 6.6' stroke='white' stroke-width='2.2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E")}
+.ing{list-style:none}
+.ing li{display:flex;align-items:baseline;gap:6px;font-size:15px;padding:7.5px 0}
+.ing li i{flex:1;border-bottom:1.5px dotted #CDBFA9;transform:translateY(-3px)}
+.ing li b{font-weight:700;white-space:nowrap}
+.steps{display:flex;flex-direction:column;gap:13px}
+.step{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;background:var(--card);border-radius:14px;padding:15px 13px;box-shadow:0 1px 0 #EADFCD}
+.num{width:34px;height:34px;border-radius:50%;background:var(--ink);color:#fff;font-family:'Bricolage';font-weight:800;font-size:17px;display:grid;place-items:center}
+.step p{font-size:14.6px;line-height:1.38}
+.min{font-size:11.5px;font-weight:700;color:var(--red);background:#FCE6DE;border-radius:99px;padding:4px 8px;white-space:nowrap}
+.safe{margin-top:16px;font-size:13px;line-height:1.4;background:#FDF1D3;border-left:4px solid var(--mustard);padding:9px 11px;border-radius:6px}
+.swap{list-style:none;display:flex;flex-direction:column;gap:8px}
+.swap li{background:var(--card);border-radius:12px;padding:10px 13px;display:flex;flex-direction:column;gap:2px;box-shadow:0 1px 0 #EADFCD}
+.swap b{font-size:13px;color:var(--red)}
+.swap span{font-size:13.5px}
+.vote{display:flex;gap:10px;margin-top:6px}
+.btn{flex:1;border-radius:16px;padding:16px 12px;font-weight:700;font-size:15px;display:flex;flex-direction:column;gap:6px;color:#fff}
+.btn b{font-family:'Bricolage';font-size:34px;line-height:1}
+.btn.a{background:var(--red)} .btn.b{background:var(--green)}
+.cta{font-size:19px;font-weight:700;margin-top:18px;text-align:center}
+.follow{font-size:14px;text-align:center;margin-top:16px}
+.saveline{font-size:13px;text-align:center;margin-top:6px;color:var(--green);font-weight:600}
+.s2 h2.big{font-size:41px;margin-top:14px}
+.s2 .lead{font-size:18px}
+.s2 .ticks{margin-top:16px} .s2 .ticks li{font-size:17px;padding:10px 0}
+.promise{margin-top:auto;margin-bottom:12px;display:flex;align-items:center;gap:12px;background:#FDF1D3;border-radius:14px;padding:12px 14px}
+.promise .logo{width:38px;height:38px;flex:none}
+.promise b{display:block;font-family:'Bricolage';font-size:22px;letter-spacing:-.4px}
+.promise span{font-size:13.5px}
+#s4 .step{padding:14px 13px} #s4 .step p{font-size:14.8px}
+.tip{margin-top:auto;margin-bottom:12px;font-size:13.5px;line-height:1.4;background:#E6F0E4;border-left:4px solid var(--green);padding:10px 12px;border-radius:6px}
+.down{width:20px;height:20px;vertical-align:-3px}
+#s7 h2.big{font-size:44px;margin-top:26px}
+#s7 .btn{padding:22px 14px;font-size:16.5px}
+#s7 .btn b{font-size:44px}
+#s7 .cta{font-size:22px;margin-top:24px}
+#s7 .follow{font-size:15.5px;margin-top:22px}
+#s7 .saveline{font-size:14.5px}
+.missing-photo{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;text-align:center;border:2.5px dashed var(--red);background:#FCE6DE;color:var(--red);border-radius:16px}
+.missing-photo b{font-family:'Bricolage';font-size:20px;letter-spacing:.5px}
+.missing-photo span{font-size:12px;color:var(--ink)}
+.missing-photo.hero{height:250px;margin:12px 0 10px}
+.missing-photo.flat{height:104px;margin:-4px 0 8px;border-radius:12px}
+.legal{margin-top:auto;margin-bottom:10px;font-size:10px;color:var(--muted);text-align:center}
+</style></head><body><div class="grid"><section class="slide s1" id="s1">
+  <header><div class="brand"><svg viewBox="0 0 40 40" class="logo"><circle cx="20" cy="22" r="15" fill="none" stroke="#2B2118" stroke-width="3.2"/>
+<path d="M20 7 A15 15 0 0 1 32.99 29.5" fill="none" stroke="#E4572E" stroke-width="5" stroke-linecap="round"/>
+<rect x="16" y="1.5" width="8" height="4" rx="1.5" fill="#2B2118"/><line x1="20" y1="22" x2="20" y2="13" stroke="#2B2118" stroke-width="3" stroke-linecap="round"/>
+<circle cx="20" cy="22" r="2.4" fill="#2B2118"/></svg><span>toca a jantar</span></div><span class="count">1/7</span></header>
+  <div class="body">
+  <div class="kicker">JANTAR + MARMITA</div>
+  <h1>Arroz de frango com ervilhas</h1>
+  <img class="hero" src="fotos/capa.jpg" alt="">
+  <div class="chips"><span class="chip red">25 min</span><span class="chip">1 tacho</span><span class="chip">4 doses</span><span class="chip cost">≈1,60&nbsp;€/dose</span></div>
+</div>
+  <footer><span class="handle">@tocaajantar</span><span class="teaser">desliza →</span></footer>
+</section><section class="slide s2" id="s2">
+  <header><div class="brand"><svg viewBox="0 0 40 40" class="logo"><circle cx="20" cy="22" r="15" fill="none" stroke="#2B2118" stroke-width="3.2"/>
+<path d="M20 7 A15 15 0 0 1 32.99 29.5" fill="none" stroke="#E4572E" stroke-width="5" stroke-linecap="round"/>
+<rect x="16" y="1.5" width="8" height="4" rx="1.5" fill="#2B2118"/><line x1="20" y1="22" x2="20" y2="13" stroke="#2B2118" stroke-width="3" stroke-linecap="round"/>
+<circle cx="20" cy="22" r="2.4" fill="#2B2118"/></svg><span>toca a jantar</span></div><span class="count">2/7</span></header>
+  <div class="body">
+  <h2 class="big">Faz hoje.<br>Come amanhã também.</h2>
+  <p class="lead">Um tacho, 25 minutos: jantar para 2 e a marmita de amanhã já feita.</p>
+  <ul class="ticks"><li>Tudo no mesmo tacho</li><li>Ervilhas direto do congelador</li><li>Sabe ainda melhor no dia seguinte</li></ul>
+  <div class="promise"><svg viewBox="0 0 40 40" class="logo"><circle cx="20" cy="22" r="15" fill="none" stroke="#2B2118" stroke-width="3.2"/>
+<path d="M20 7 A15 15 0 0 1 32.99 29.5" fill="none" stroke="#E4572E" stroke-width="5" stroke-linecap="round"/>
+<rect x="16" y="1.5" width="8" height="4" rx="1.5" fill="#2B2118"/><line x1="20" y1="22" x2="20" y2="13" stroke="#2B2118" stroke-width="3" stroke-linecap="round"/>
+<circle cx="20" cy="22" r="2.4" fill="#2B2118"/></svg><div><b>25 minutos</b><span>o arroz coze no molho do frango</span></div></div>
+</div>
+  <footer><span class="handle">@tocaajantar</span><span class="teaser">Do que precisas →</span></footer>
+</section><section class="slide " id="s3">
+  <header><div class="brand"><svg viewBox="0 0 40 40" class="logo"><circle cx="20" cy="22" r="15" fill="none" stroke="#2B2118" stroke-width="3.2"/>
+<path d="M20 7 A15 15 0 0 1 32.99 29.5" fill="none" stroke="#E4572E" stroke-width="5" stroke-linecap="round"/>
+<rect x="16" y="1.5" width="8" height="4" rx="1.5" fill="#2B2118"/><line x1="20" y1="22" x2="20" y2="13" stroke="#2B2118" stroke-width="3" stroke-linecap="round"/>
+<circle cx="20" cy="22" r="2.4" fill="#2B2118"/></svg><span>toca a jantar</span></div><span class="count">3/7</span></header>
+  <div class="body">
+  <div class="kicker">INGREDIENTES · 4 DOSES · ≈1,60&nbsp;€ POR DOSE</div>
+  <h2>O arroz que sabe a casa</h2>
+  <img class="flat" src="fotos/ingredientes.jpg" alt="">
+  <ul class="ing compact"><li><span>Arroz agulha</span><i></i><b>300 g</b></li><li><span>Peito de frango</span><i></i><b>500 g</b></li><li><span>Ervilhas congeladas</span><i></i><b>150 g</b></li><li><span>Tomate pelado</span><i></i><b>1 lata (390 g)</b></li><li><span>Pimento vermelho</span><i></i><b>1</b></li><li><span>Cebola</span><i></i><b>1</b></li><li><span>Alho</span><i></i><b>2 dentes</b></li><li><span>Azeite</span><i></i><b>2 c. sopa</b></li><li><span>Pimentão-doce e sal</span><i></i><b>q.b.</b></li></ul>
+</div>
+  <footer><span class="handle">@tocaajantar</span><span class="teaser">Agora, o relógio →</span></footer>
+</section><section class="slide " id="s4">
+  <header><div class="brand"><svg viewBox="0 0 40 40" class="logo"><circle cx="20" cy="22" r="15" fill="none" stroke="#2B2118" stroke-width="3.2"/>
+<path d="M20 7 A15 15 0 0 1 32.99 29.5" fill="none" stroke="#E4572E" stroke-width="5" stroke-linecap="round"/>
+<rect x="16" y="1.5" width="8" height="4" rx="1.5" fill="#2B2118"/><line x1="20" y1="22" x2="20" y2="13" stroke="#2B2118" stroke-width="3" stroke-linecap="round"/>
+<circle cx="20" cy="22" r="2.4" fill="#2B2118"/></svg><span>toca a jantar</span></div><span class="count">4/7</span></header>
+  <div class="body">
+  
+  <div class="kicker">PASSOS 1 A 3</div>
+  <h2>Primeiro, o frango</h2>
+  <div class="steps">
+  <div class="step"><div class="num">1</div><p>Frango aos cubos com sal e pimentão-doce. Aloura no azeite, no tacho.</p><div class="min">5&nbsp;min</div></div>
+  <div class="step"><div class="num">2</div><p>Junta a cebola, o alho e o pimento picados. Mexe até amolecerem.</p><div class="min">3&nbsp;min</div></div>
+  <div class="step"><div class="num">3</div><p>Tomate pelado esmagado com a colher. Deixa apurar.</p><div class="min">2&nbsp;min</div></div>
+  </div>
+  <div class="tip"><b>Truque:</b> liga a chaleira no passo 1. Água já a ferver poupa 5 minutos ao arroz.</div>
+</div>
+  <footer><span class="handle">@tocaajantar</span><span class="teaser">Falta pouco →</span></footer>
+</section><section class="slide " id="s5">
+  <header><div class="brand"><svg viewBox="0 0 40 40" class="logo"><circle cx="20" cy="22" r="15" fill="none" stroke="#2B2118" stroke-width="3.2"/>
+<path d="M20 7 A15 15 0 0 1 32.99 29.5" fill="none" stroke="#E4572E" stroke-width="5" stroke-linecap="round"/>
+<rect x="16" y="1.5" width="8" height="4" rx="1.5" fill="#2B2118"/><line x1="20" y1="22" x2="20" y2="13" stroke="#2B2118" stroke-width="3" stroke-linecap="round"/>
+<circle cx="20" cy="22" r="2.4" fill="#2B2118"/></svg><span>toca a jantar</span></div><span class="count">5/7</span></header>
+  <div class="body">
+  <div class="kicker">PASSOS 4 A 6</div>
+  <h2>Depois, o arroz</h2>
+  <div class="steps">
+  <div class="step"><div class="num">4</div><p>Arroz e 600&nbsp;ml de água a ferver, com sal. Tapa, lume brando.</p><div class="min">9&nbsp;min</div></div>
+  <div class="step"><div class="num">5</div><p>Ervilhas por cima, sem mexer. Volta a tapar.</p><div class="min">3&nbsp;min</div></div>
+  <div class="step"><div class="num">6</div><p>Desliga e deixa repousar tapado. Solta com um garfo.</p><div class="min">3&nbsp;min</div></div>
+  </div>
+  <div class="safe"><b>Ponto seguro:</b> frango a 74&nbsp;°C. Para a marmita, arrefece o arroz depressa e põe no frigorífico em menos de 1&nbsp;h. Come no dia seguinte.</div>
+</div>
+  <footer><span class="handle">@tocaajantar</span><span class="teaser">Guarda o próximo →</span></footer>
+</section><section class="slide " id="s6">
+  <header><div class="brand"><svg viewBox="0 0 40 40" class="logo"><circle cx="20" cy="22" r="15" fill="none" stroke="#2B2118" stroke-width="3.2"/>
+<path d="M20 7 A15 15 0 0 1 32.99 29.5" fill="none" stroke="#E4572E" stroke-width="5" stroke-linecap="round"/>
+<rect x="16" y="1.5" width="8" height="4" rx="1.5" fill="#2B2118"/><line x1="20" y1="22" x2="20" y2="13" stroke="#2B2118" stroke-width="3" stroke-linecap="round"/>
+<circle cx="20" cy="22" r="2.4" fill="#2B2118"/></svg><span>toca a jantar</span></div><span class="count">6/7</span></header>
+  <div class="body">
+  <div class="kicker"><svg viewBox="0 0 24 24" class="pin"><path d="M15 3l6 6-3 1-4 4 .5 4.5L13 20l-4-4-5 5-1-1 5-5-4-4 1.5-1.5L10 10l4-4z" fill="#E4572E"/></svg> GUARDA ISTO</div>
+  <h2>Não tens tudo? Troca.</h2>
+  <ul class="swap">
+   <li><b>Sem peito</b><span>coxas de frango sem osso: mais suculentas e mais baratas</span></li>
+   <li><b>Sem ervilhas</b><span>milho ou feijão-verde congelado, no passo 5</span></li>
+   <li><b>Mais cor</b><span>1 cenoura aos cubinhos, no passo 2</span></li>
+   <li><b>Para a marmita</b><span>aquece até fumegar por igual; não voltes a aquecer 2 vezes</span></li>
+   <li><b>Sobras de arroz</b><span>frigorífico em menos de 1 h; come em 1 dia</span></li>
+  </ul>
+</div>
+  <footer><span class="handle">@tocaajantar</span><span class="teaser">Ajuda-nos a escolher →</span></footer>
+</section><section class="slide s7" id="s7">
+  <header><div class="brand"><svg viewBox="0 0 40 40" class="logo"><circle cx="20" cy="22" r="15" fill="none" stroke="#2B2118" stroke-width="3.2"/>
+<path d="M20 7 A15 15 0 0 1 32.99 29.5" fill="none" stroke="#E4572E" stroke-width="5" stroke-linecap="round"/>
+<rect x="16" y="1.5" width="8" height="4" rx="1.5" fill="#2B2118"/><line x1="20" y1="22" x2="20" y2="13" stroke="#2B2118" stroke-width="3" stroke-linecap="round"/>
+<circle cx="20" cy="22" r="2.4" fill="#2B2118"/></svg><span>toca a jantar</span></div><span class="count">7/7</span></header>
+  <div class="body">
+  <h2 class="big">Qual é a próxima versão?</h2>
+  <div class="vote"><div class="btn a"><b>A</b>Com chouriço</div><div class="btn b"><b>B</b>Com caril</div></div>
+  <p class="cta">Comenta <b>A</b> ou <b>B</b> <svg viewBox="0 0 24 24" class="down"><path d="M12 4v14M6 12l6 6 6-6" fill="none" stroke="#E4572E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></p>
+  <p class="follow">Segue <b>@tocaajantar</b>: um jantar e uma marmita por dia.</p>
+  <p class="saveline">Guarda para domingo: jantar e marmita num só tacho.</p>
+  <p class="legal">Tempos aproximados · Confirma alergénios (sem alergénios principais)</p>
+</div>
+  <footer><span class="handle">@tocaajantar</span></footer>
+</section></div></body></html>
