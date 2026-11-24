@@ -511,3 +511,8 @@ mkdir -p assets/fonts
 
 ## 16-A. Atualização a 24/11/2026: volta a publicar o Claude
 A dona da página decidiu: **o Claude publica (agenda no Metricool) depois da aprovação dela**, como antes da secção 16. Mantém-se: nada sai sem aprovação; a hora é a sugerida pelo Metricool; verificação 8 min depois de cada publicação; lembrar a música, fixar o primeiro comentário, a sondagem na Story e responder aos comentários na 1.ª hora.
+
+## 17. Um post por dia, alternando (desde 25/11/2026)
+- **Seg:** receita (jantar), 10:30 · **Ter:** Marmita dos Miúdos, 18:15 · **Qua:** receita, 10:30 · **Qui:** Marmita dos Miúdos, 18:15 · **Sex:** Sexta Doce, 10:30 · **Sáb:** receita, 10:30 · **Dom:** Marmita dos Miúdos (lancheira de segunda), 18:15.
+- Por semana: 3 jantares, 3 marmitas e 1 sobremesa. Cada post leva uma Story 5 min depois.
+- As horas são as habituais; confirma no dia com getBestTimeToPostByNetwork.

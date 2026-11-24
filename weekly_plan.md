@@ -50,3 +50,20 @@ As fotos reais confirmam-se no dia; se faltar alguma, troca-se o prato por outro
 
 ## Próximo: Desafio "Semana sem arroz" (30/11 a 6/12)
 Apresentado no domingo 29/11, com Story e lista de compras. 7 jantares sem arroz, com batata, massa, leguminosas, legumes ou pão. Sexta Doce incluída. A revisão de domingo 29/11 fecha o plano com as fotos reais disponíveis.
+
+## Desde 25/11: UM post por dia, a alternar (BRAND secção 17)
+| Dia | Post | Hora |
+|---|---|---|
+| Qua 25 | 🍽️ Salmão com batata-doce na air fryer | 10:30 |
+| Qui 26 | 🍱 Miúdos: douradinhos caseiros com medalhões Pescanova (menção e colaboração com @pescanova_pt, sem parceria) | 18:15 |
+| Sex 27 | 🍎 Sexta Doce: maçã caramelizada na frigideira com canela e iogurte | 10:30 |
+| Sáb 28 | 🍽️ Chili de carne picada com feijão | 10:30 |
+| Dom 29 | 🍱 Miúdos: almôndegas com puré no termo, mais a Story de apresentação do desafio "Semana sem arroz" | 18:15 |
+| Seg 30 | 🍽️ Desafio, dia 1: ovos em tomate (versão vencedora do voto) | 10:30 |
+| Ter 1/12 | 🍱 Miúdos (feriado: a marmita é para quarta) | 18:15 |
+| Qua 2 | 🍽️ Desafio: hambúrgueres de frango na air fryer com batata-doce | 10:30 |
+| Qui 3 | 🍱 Miúdos: salada de massa com frango e milho | 18:15 |
+| Sex 4 | 🍎 Sexta Doce: "Bolo-Rei" de caneca | 10:30 |
+| Sáb 5 | 🍽️ Desafio: sopa-refeição de grão com chouriço e couve | 10:30 |
+| Dom 6 | 🍱 Miúdos: bolinhas de batata e atum, mais o fecho do desafio | 18:15 |
+Os outros pratos do desafio (esparguete com camarão, gnocchi, bitoque) ficam de reserva.
