@@ -54,7 +54,7 @@ Apresentado no domingo 29/11, com Story e lista de compras. 7 jantares sem arroz
 ## Desde 25/11: UM post por dia, a alternar (BRAND secção 17)
 | Dia | Post | Hora |
 |---|---|---|
-| Qua 25 | 🍽️ Salmão com batata-doce na air fryer | 10:30 |
+| Qua 25 | 🍽️ Salmão com batata-doce na air fryer (preview pronto, à espera de aprovação) | 10:30 |
 | Qui 26 | 🍱 Miúdos: douradinhos caseiros com medalhões Pescanova (menção e colaboração com @pescanova_pt, sem parceria) | 18:15 |
 | Sex 27 | 🍎 Sexta Doce: maçã caramelizada na frigideira com canela e iogurte | 10:30 |
 | Sáb 28 | 🍽️ Chili de carne picada com feijão | 10:30 |
